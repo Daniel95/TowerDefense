@@ -14,6 +14,11 @@ public class Drag : Snap {
 
     private Rigidbody2D rb;
 
+    void Awake() {
+        rb = GetComponent<Rigidbody2D>();
+        rb.isKinematic = true;
+    }
+
     void OnMouseDown()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
@@ -21,6 +26,8 @@ public class Drag : Snap {
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
 
         startPos = transform.position;
+
+        rb.isKinematic = false;
     }
 
     void OnMouseUp()
@@ -31,7 +38,8 @@ public class Drag : Snap {
             collision = false;
         }
 
-        if (rb != null) Destroy(rb);
+        rb.isKinematic = true;
+        //if (rb != null) Destroy(rb);
     }
 
     void OnMouseDrag()
@@ -40,11 +48,11 @@ public class Drag : Snap {
 
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 
-        if (rb == null) {
+        /*if (rb == null) {
             rb = gameObject.AddComponent<Rigidbody2D>();
             rb.gravityScale = 0;
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        }
+        }*/
 
         transform.position = SnapToGrid(curPosition);
     }

@@ -18,10 +18,10 @@ public class MoveCamera : MonoBehaviour {
         screenWidth = Screen.width;
 
 
-        leftMoveZone = screenWidth / 5;
-        rightMoveZone = screenWidth / 1.2f;
-        downMoveZone = screenHeight / 5;
-        upMoveZone = screenHeight / 1.2f;
+        leftMoveZone = screenWidth / 8;
+        rightMoveZone = screenWidth / 1.125f;
+        downMoveZone = screenHeight / 8;
+        upMoveZone = screenHeight / 1.125f;
 
     }
 	

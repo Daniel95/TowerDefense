@@ -15,23 +15,20 @@ public class TowerShoot : TargetObj {
         cooldownValue = cooldown;
     }
 
-    public override void DetectEnemy(GameObject _enemy)
+    public override void SeeEnemy(GameObject _enemy)
     {
-        base.DetectEnemy(_enemy); // voor alles in de parent functie ook uit
-
-        Debug.Log("Enemy In Sight");
-
-        if (cooldown < 0) {
-            //enemy.TakeDamage(damage);
+        base.SeeEnemy(_enemy); // voor alles in de parent functie ook uit
+        if (cooldownValue < 0) {
+            //Debug.Log("seeingenemy");
+            DamageEnemy(_enemy);
             cooldownValue = cooldown;
         }
-        cooldownValue--;
+        cooldownValue -= 1 * Time.deltaTime;
     }
 
-    public override void LoseEnemy(GameObject _enemy)
+    public virtual void DamageEnemy(GameObject _enemy)
     {
-        base.DetectEnemy(_enemy); // voor alles in de parent functie ook uit
-
-        Debug.Log("Lost Sight of the enemy");
+        Health enemyHealth =_enemy.GetComponent<Health>();
+        enemyHealth.TakeDamage(damage);
     }
 }

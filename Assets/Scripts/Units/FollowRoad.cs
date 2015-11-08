@@ -8,6 +8,6 @@ public class FollowRoad : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(0, moveSpeed, 0);
+        transform.Translate(0, moveSpeed * Time.deltaTime, 0);
     }
 }
