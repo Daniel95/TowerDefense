@@ -1,34 +1,65 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class TowerShoot : TargetObj {
+public class TowerShoot : MonoBehaviour {
 
     [SerializeField]
-    private int damage;
+    private LayerMask checkLayer;
+
+    [SerializeField]
+    private GameObject projectile;
+
+    [SerializeField]
+    private float projectileSpeed;
 
     [SerializeField]
     private float cooldown;
 
-    private float cooldownValue;
+    [SerializeField]
+    private int damage;
+
+    private float range;
+
+    private GameObject currentEnemy;
 
     void Awake() {
-        cooldownValue = cooldown;
+
+        float random = Random.Range(0, 0.99f);
+        range = transform.Find("TowerRange").GetComponent<SpriteRenderer>().bounds.size.x / 2;
+        InvokeRepeating("CheckForEnemy", random, cooldown);
     }
 
-    public override void SeeEnemy(GameObject _enemy)
+    void CheckForEnemy()
     {
-        base.SeeEnemy(_enemy); // voor alles in de parent functie ook uit
-        if (cooldownValue < 0) {
-            //Debug.Log("seeingenemy");
-            DamageEnemy(_enemy);
-            cooldownValue = cooldown;
+        float shortestDist = 1000;
+        Vector3 EnemyPos = new Vector3();
+
+        foreach (Collider2D enemy in Physics2D.OverlapCircleAll(transform.position, range, checkLayer)) {
+            float distanceToEnemy = Vector3.Distance(enemy.gameObject.transform.position, transform.position);
+            if (distanceToEnemy < shortestDist)
+            {
+                shortestDist = distanceToEnemy;
+                EnemyPos = enemy.transform.position;
+            }
         }
-        cooldownValue -= 1 * Time.deltaTime;
+        if (shortestDist < 1000)
+        {
+            if (EnemyPos.x < transform.position.x)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            } else {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            Shoot(EnemyPos);
+        }
     }
 
-    public virtual void DamageEnemy(GameObject _enemy)
-    {
-        Health enemyHealth =_enemy.GetComponent<Health>();
-        enemyHealth.TakeDamage(damage);
+    void Shoot(Vector3 enemyPos) {
+            GameObject bullet = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+            BulletInfo bulletinfo = bullet.GetComponent<BulletInfo>();
+            bulletinfo.setSpeed = projectileSpeed;
+            bulletinfo.setTargetPos = enemyPos;
+            bulletinfo.setDamage = damage;
+        }
     }
-}
