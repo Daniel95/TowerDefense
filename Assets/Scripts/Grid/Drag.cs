@@ -12,14 +12,19 @@ public class Drag : Snap {
 
     private bool collision;
 
+    private SpriteRenderer rangeIndicator;
+
     private Rigidbody2D rb;
 
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
+
+        rangeIndicator = transform.Find("TowerRange").GetComponent<SpriteRenderer>();
+        if(rangeIndicator != null) rangeIndicator.enabled = false;
     }
 
-    void OnMouseDown()
+    public virtual void OnClick()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
@@ -28,10 +33,10 @@ public class Drag : Snap {
         startPos = transform.position;
 
         rb.isKinematic = false;
+        if (rangeIndicator != null) rangeIndicator.enabled = true;
     }
 
-    void OnMouseUp()
-    {
+    public virtual void OnPlace() {
         if (collision)
         {
             transform.position = startPos;
@@ -39,31 +44,40 @@ public class Drag : Snap {
         }
 
         rb.isKinematic = true;
-        //if (rb != null) Destroy(rb);
+        if (rangeIndicator != null) rangeIndicator.enabled = false;
     }
 
-    void OnMouseDrag()
+    public void OnDrag()
     {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
 
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
-
-        /*if (rb == null) {
-            rb = gameObject.AddComponent<Rigidbody2D>();
-            rb.gravityScale = 0;
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        }*/
 
         transform.position = SnapToGrid(curPosition);
     }
 
     void OnCollisionStay2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Tile") collision = true;
+        if (other.gameObject.tag == "Tile")
+        {
+            collision = true;
+        }
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Tile") collision = false;
+        if (other.gameObject.tag == "Tile")
+        {
+            collision = false;
+        }
+    }
+
+    public Vector3 SetStartPosition {
+        set { startPos = value; }
+    }
+
+    public bool SetKinematic
+    {
+        set { rb.isKinematic = value; }
     }
 }
