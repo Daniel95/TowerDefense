@@ -26,7 +26,7 @@ public class TowerShoot : MonoBehaviour {
     void Awake() {
 
         float random = Random.Range(0, 0.99f);
-        range = transform.Find("TowerRange").GetComponent<SpriteRenderer>().bounds.size.x / 2;
+        range = transform.FindChild("TowerRange").GetComponent<SpriteRenderer>().bounds.size.x / 2;
         InvokeRepeating("CheckForEnemy", random, cooldown);
     }
 
