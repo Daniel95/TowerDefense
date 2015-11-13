@@ -45,6 +45,7 @@ public class Drag : Snap {
 
         rb.isKinematic = true;
         if (rangeIndicator != null) rangeIndicator.enabled = false;
+        transform.position = new Vector3(transform.position.x, transform.position.y, -0.1f);
     }
 
     public void OnDrag()
