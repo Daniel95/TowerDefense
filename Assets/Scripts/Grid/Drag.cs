@@ -55,6 +55,8 @@ public class Drag : Snap {
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 
         transform.position = SnapToGrid(curPosition);
+
+        if (!collision) startPos = transform.position;
     }
 
     void OnCollisionStay2D(Collision2D other)
