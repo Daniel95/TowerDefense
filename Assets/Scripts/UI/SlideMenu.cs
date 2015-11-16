@@ -27,7 +27,6 @@ public class SlideMenu : MonoBehaviour {
         distanceToMove = selectionMenuImage.rectTransform.rect.width;
         startPosX = 772;//selectionMenu.transform.position.x;
 
-        
         Color color = selectionMenuImage.color;
         color.a = 0;
         selectionMenuImage.color = color;
@@ -35,56 +34,62 @@ public class SlideMenu : MonoBehaviour {
         foreach (Transform button in selectionMenu.transform)
         {
             button.GetComponent<Image>().color = color;
+            button.gameObject.GetComponent<Shop>().SetClickable = true;
         }
-
-        selectionMenu.SetActive(false);
     }
 
-    public void Slide() {
-
+    public void ChangeMenuState() {
+        //Set Visible
         if (!visible) {
             visible = true;
-            selectionMenu.SetActive(true);
-
             Vector3 PositionToGo = new Vector3(startPosX - distanceToMove, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
-            StartCoroutine(SlideTo(PositionToGo, false));
+            StartCoroutine(SlideTo(PositionToGo, true));
             //StartCoroutine(ChangeAlpha(true));
             StartCoroutine(FadeIn());
-        }
+
+            foreach (Transform button in selectionMenu.transform)
+            {
+                button.gameObject.GetComponent<Shop>().SetClickable = true;
+            }
+        }//Set Invisible
         else {
             visible = false;
             //selectionMenu.SetActive(false);
 
             Vector3 PositionToGo = new Vector3(startPosX, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
-            StartCoroutine(SlideTo(PositionToGo, true));
+            StartCoroutine(SlideTo(PositionToGo, false));
             //StartCoroutine(ChangeAlpha(false));
             StartCoroutine(FadeOut());
 
-            selectionMenu.SetActive(false);
+            foreach (Transform button in selectionMenu.transform)
+            {
+                button.gameObject.GetComponent<Shop>().SetClickable = false;
+            }
         }
     }
 
     IEnumerator SlideTo(Vector3 _positionToGo, bool _visible) {
-        while(selectionMenu.transform.position != _positionToGo && visible != _visible) {
+        while(selectionMenu.transform.position != _positionToGo && visible == _visible) {
             selectionMenu.transform.position = Vector3.MoveTowards(selectionMenu.transform.position, _positionToGo, slideSpeed);
             yield return new WaitForFixedUpdate();         // Leave the routine and return here in the next frame
         }
     }
-    /*
+    
     IEnumerator ChangeAlpha(bool _visible)
     {
-        int a = 0;
+        int IntVisible = System.Convert.ToInt32(_visible);
         float decrement = changeAlphaSpeed;
-        if (_visible) {
-            a = 1;
-            decrement *= -1;
-        }
-        while (selectionMenu.color.a != a && visible == _visible)
+        if (!_visible) changeAlphaSpeed *= -1; 
+        foreach (Transform button in selectionMenu.transform)
         {
-            print(_visible);
-            Color color = selectionMenu.color;
+            button.gameObject.GetComponent<Shop>().SetClickable = true;
+        }
+
+        Color color = selectionMenuImage.color;
+        while (selectionMenuImage.color.a != IntVisible && visible == _visible)
+        {
             color.a -= decrement;
-            selectionMenu.color = color;
+            selectionMenuImage.color = color;
 
             foreach (Transform button in selectionMenu.transform)
             {
@@ -93,7 +98,7 @@ public class SlideMenu : MonoBehaviour {
 
             yield return new WaitForFixedUpdate();         // Leave the routine and return here in the next frame
         }
-    }*/
+    }
 
     IEnumerator FadeOut()
     {

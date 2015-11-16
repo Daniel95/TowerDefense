@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Drag : Snap {
 
+    [SerializeField]
+    private bool placed;
+
     private Vector3 screenPoint;
     private Vector3 offset;
 
@@ -14,7 +17,11 @@ public class Drag : Snap {
 
     private SpriteRenderer rangeIndicator;
 
+    private GameObject upgradeMenu;
+
     private Rigidbody2D rb;
+
+    private bool dragging;
 
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
@@ -22,9 +29,22 @@ public class Drag : Snap {
 
         rangeIndicator = transform.Find("TowerRange").GetComponent<SpriteRenderer>();
         if(rangeIndicator != null) rangeIndicator.enabled = false;
+        //upgradeMenu = transform.Find("UpgradeMenu").GetComponent<GameObject>();
+        //if (upgradeMenu != null) upgradeMenu.SetActive(false);
+    } 
+
+    public void Upgrade() {
+        bool showUpgrades = false;
+        showUpgrades = !showUpgrades;
+        //upgradeMenu.SetActive(showUpgrades);
     }
 
-    public virtual void OnClick()
+    private void MouseDown() {
+        if (placed) Upgrade();
+        else StartDrag();
+    }
+
+    public void StartDrag()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
@@ -34,28 +54,72 @@ public class Drag : Snap {
 
         rb.isKinematic = false;
         if (rangeIndicator != null) rangeIndicator.enabled = true;
+
+        dragging = true;
+        //StartCoroutine(Dragging());
     }
 
-    public virtual void OnPlace() {
-        if (collision)
-        {
-            transform.position = startPos;
+    private void MouseUp() {
+        //StopCoroutine(Dragging());
+        dragging = false;
+
+        if (collision) {
+            if (placed) transform.position = startPos;
+            else {
+                Destroy(this.gameObject);
+                //add money
+                //play sound
+            }
             collision = false;
-        }
+        } else placed = true;
 
         rb.isKinematic = true;
         if (rangeIndicator != null) rangeIndicator.enabled = false;
-        transform.position = new Vector3(transform.position.x, transform.position.y, -0.1f);
     }
 
-    public void OnDrag()
+    void Update() {
+        if (dragging)
+        {
+            Dragging();
+        }
+    }
+
+    /*
+    IEnumerator Dragging()
+    {
+        print("dragging");
+
+        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
+
+        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
+
+        transform.position = SnapToGrid(curPosition);
+
+        if (rangeIndicator != null)
+        {
+            if (collision) rangeIndicator.enabled = false;
+            else rangeIndicator.enabled = true;
+        }
+
+        yield return new WaitForFixedUpdate();
+    }*/
+
+    private void Dragging()
     {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
 
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 
         transform.position = SnapToGrid(curPosition);
+
+        if (rangeIndicator != null)
+        {
+            if (collision) rangeIndicator.enabled = false;
+            else rangeIndicator.enabled = true;
+        }
+
     }
+
 
     void OnCollisionStay2D(Collision2D other)
     {
@@ -70,7 +134,12 @@ public class Drag : Snap {
         if (other.gameObject.tag == "Tile")
         {
             collision = false;
+            //print("collexit");
         }
+    }
+
+    public bool getPlaced {
+        get { return placed; }
     }
 
     public Vector3 SetStartPosition {
