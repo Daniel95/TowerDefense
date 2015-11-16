@@ -46,11 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\MoveCamera.cs" />
+     <Compile Include="Assets\Scripts\Cell.cs" />
      <Compile Include="Assets\Scripts\GUI\Pause.cs" />
+     <Compile Include="Assets\Scripts\GUI\Points.cs" />
      <Compile Include="Assets\Scripts\Grid\Drag.cs" />
      <Compile Include="Assets\Scripts\Grid\ShowRangeOnDrag.cs" />
      <Compile Include="Assets\Scripts\Grid\Snap.cs" />
-     <Compile Include="Assets\Scripts\Points.cs" />
      <Compile Include="Assets\Scripts\Tower\RangeIndicator.cs" />
      <Compile Include="Assets\Scripts\Tower\TargetObj.cs" />
      <Compile Include="Assets\Scripts\Tower\TowerShoot.cs" />
