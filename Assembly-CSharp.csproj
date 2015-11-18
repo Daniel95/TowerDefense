@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Cell.cs" />
      <Compile Include="Assets\Scripts\GUI\Pause.cs" />
      <Compile Include="Assets\Scripts\GUI\Points.cs" />
+     <Compile Include="Assets\Scripts\Grid.cs" />
      <Compile Include="Assets\Scripts\Grid\Drag.cs" />
      <Compile Include="Assets\Scripts\Grid\ShowRangeOnDrag.cs" />
      <Compile Include="Assets\Scripts\Grid\Snap.cs" />

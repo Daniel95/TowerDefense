@@ -11,7 +11,7 @@ public class Cell : MonoBehaviour {
 		private bool _isClosed	=	false; 	// variabele om bij te houden of we deze cell al hebben gecheckt
 		private	Cell _parent; 				// variabele om bij te houden wie, in het pad, mijn parent is (via welke cell kom je bij mij)
 		private Vector2 _position;			// wat is mijn positie in het grid
-		private ArrayList _neighbors; 			// wie zijn mijn buren (cellen)
+		private float[] _neighbors; 			// wie zijn mijn buren (cellen)
 		
 		
 		public void Start() 
@@ -68,7 +68,7 @@ public class Cell : MonoBehaviour {
 			set {_isClosed = value; }
 		}
 		
-		public ArrayList neighbors
+		public float[] neighbors
 		{
 			get	{ return _neighbors; }
 			set {_neighbors = value; }
