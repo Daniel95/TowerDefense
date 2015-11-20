@@ -15,7 +15,7 @@ public class Drag : Snap {
 
     private bool collision;
 
-    private SpriteRenderer rangeIndicator;
+    private GameObject rangeIndicator;
 
     private GameObject upgradeMenu;
 
@@ -23,20 +23,28 @@ public class Drag : Snap {
 
     private bool dragging;
 
+    private bool showUpgrades;
+
+    private bool showRange;
+
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
 
-        rangeIndicator = transform.Find("TowerRange").GetComponent<SpriteRenderer>();
-        if(rangeIndicator != null) rangeIndicator.enabled = false;
-        //upgradeMenu = transform.Find("UpgradeMenu").GetComponent<GameObject>();
-        //if (upgradeMenu != null) upgradeMenu.SetActive(false);
+        rangeIndicator = transform.Find("TowerRange").gameObject;
+        if(rangeIndicator != null) rangeIndicator.SetActive(false);
+        upgradeMenu = transform.Find("UpgradeMenu").gameObject;
+        if (upgradeMenu != null) upgradeMenu.SetActive(false);
     } 
 
-    public void Upgrade() {
-        bool showUpgrades = false;
+    private void Upgrade() {
         showUpgrades = !showUpgrades;
-        //upgradeMenu.SetActive(showUpgrades);
+        upgradeMenu.SetActive(showUpgrades);
+        if (rangeIndicator != null)
+        {
+            showRange = !showRange;
+            rangeIndicator.SetActive(showRange);
+        }
     }
 
     private void MouseDown() {
@@ -53,57 +61,49 @@ public class Drag : Snap {
         startPos = transform.position;
 
         rb.isKinematic = false;
-        if (rangeIndicator != null) rangeIndicator.enabled = true;
+        if (rangeIndicator != null) rangeIndicator.SetActive(true);
 
         dragging = true;
-        //StartCoroutine(Dragging());
+       //StartCoroutine(Dragging());
     }
 
-    private void MouseUp() {
-        //StopCoroutine(Dragging());
-        dragging = false;
+    private void MouseUp()
+    {
+        if (!placed) {
+            if (!collision) {
+                dragging = false;
+                placed = true;
 
-        if (collision) {
-            if (placed) transform.position = startPos;
-            else {
-                Destroy(this.gameObject);
-                //add money
-                //play sound
+                rb.isKinematic = true;
+                if (rangeIndicator != null) rangeIndicator.SetActive(false);
             }
-            collision = false;
-        } else placed = true;
-
-        rb.isKinematic = true;
-        if (rangeIndicator != null) rangeIndicator.enabled = false;
+         }
     }
-
+    
     void Update() {
-        if (dragging)
-        {
-            Dragging();
-        }
+        if (dragging) Dragging();
     }
 
     /*
     IEnumerator Dragging()
     {
         print("dragging");
+        while(1 == 1) {
+            Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
 
-        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
+            Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 
-        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
+            transform.position = SnapToGrid(curPosition);
 
-        transform.position = SnapToGrid(curPosition);
-
-        if (rangeIndicator != null)
-        {
-            if (collision) rangeIndicator.enabled = false;
-            else rangeIndicator.enabled = true;
+            if (rangeIndicator != null)
+            {
+                if (collision) rangeIndicator.SetActive(false);
+                else rangeIndicator.SetActive(true);
+            }
+            yield return new WaitForFixedUpdate();
         }
-
-        yield return new WaitForFixedUpdate();
     }*/
-
+    
     private void Dragging()
     {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
@@ -114,8 +114,8 @@ public class Drag : Snap {
 
         if (rangeIndicator != null)
         {
-            if (collision) rangeIndicator.enabled = false;
-            else rangeIndicator.enabled = true;
+            if (collision) rangeIndicator.SetActive(false);
+            else rangeIndicator.SetActive(true);
         }
 
     }
@@ -134,7 +134,6 @@ public class Drag : Snap {
         if (other.gameObject.tag == "Tile")
         {
             collision = false;
-            //print("collexit");
         }
     }
 

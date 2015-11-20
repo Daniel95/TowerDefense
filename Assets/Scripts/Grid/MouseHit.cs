@@ -11,11 +11,11 @@ public class MouseHit : MonoBehaviour {
 
             if (hit.collider != null)
             {
-                hit.collider.SendMessage("MouseDown");
+                hit.collider.SendMessage("MouseDown", SendMessageOptions.DontRequireReceiver);
                 target = hit.collider.gameObject;
             }
         } else if (Input.GetMouseButtonUp(0) && target != null) {
-            target.SendMessage("MouseUp");
+            target.SendMessage("MouseUp", SendMessageOptions.DontRequireReceiver);
             target = null;
         }
     }

@@ -3,9 +3,14 @@ using System.Collections;
 
 public class BulletInfo : MonoBehaviour {
 
-    public float speed;
-    public Vector3 targetPos;
-    public int damage;
+    private float speed;
+    private Vector3 targetPos;
+    private int damage;
+
+    [SerializeField]
+    private bool killSelf;
+
+    private Animation anim;
 
     // Update is called once per frame
     void Update()
@@ -18,7 +23,8 @@ public class BulletInfo : MonoBehaviour {
         if (target.tag == "Enemy") {
             Health enemyHealth = target.GetComponent<Health>();
             enemyHealth.TakeDamage(damage);
-            Destroy(this.gameObject);
+            if(killSelf) Destroy(this.gameObject);
+            
         }
     }
 

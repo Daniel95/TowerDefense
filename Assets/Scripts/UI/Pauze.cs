@@ -7,8 +7,15 @@ public class Pause : MonoBehaviour {
 
     private GameSpeed gameSpeed;
 
+    private SlideMenu slideMenu;
+
+    private GameObject backToMenu;
+
     void Awake() {
         gameSpeed = GameObject.Find("Game Speed").GetComponent<GameSpeed>();
+        slideMenu = GameObject.Find("Select New Tower").GetComponent<SlideMenu>();
+        backToMenu = GameObject.Find("Back To Menu").gameObject;
+        backToMenu.SetActive(false);
     }
 
     public void PauseGame()
@@ -18,11 +25,15 @@ public class Pause : MonoBehaviour {
         {
             Time.timeScale = 0;
             paused = true;
+            slideMenu.InstantVisible(true);
+            backToMenu.SetActive(true);
         }
         else
         {
             Time.timeScale = gameSpeed.GetGameSpeed;
             paused = false;
+            slideMenu.InstantVisible(false);
+            backToMenu.SetActive(false);
         }
     }
 }
