@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{AF94FB35-19C4-F428-4C0A-FD8F89B32482}") = "TowerDefense2D", "Assembly-CSharp.csproj", "{9C4DDB2F-8D43-FC15-AAFD-5F27C3CA7FCA}"
 EndProject
+Project("{AF94FB35-19C4-F428-4C0A-FD8F89B32482}") = "TowerDefense2D", "Assembly-CSharp-Editor.csproj", "{4C88D7A1-8053-BC77-E1EA-9EEAA100656C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{9C4DDB2F-8D43-FC15-AAFD-5F27C3CA7FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C4DDB2F-8D43-FC15-AAFD-5F27C3CA7FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C4DDB2F-8D43-FC15-AAFD-5F27C3CA7FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C88D7A1-8053-BC77-E1EA-9EEAA100656C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C88D7A1-8053-BC77-E1EA-9EEAA100656C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C88D7A1-8053-BC77-E1EA-9EEAA100656C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C88D7A1-8053-BC77-E1EA-9EEAA100656C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																								GlobalSection(MonoDevelopProperties) = preSolution
+																																																																				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
