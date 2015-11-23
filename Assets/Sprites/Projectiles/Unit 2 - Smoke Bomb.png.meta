@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 3f9d41fca3e92184c99a95d9a63ae509
+timeCreated: 1448046503
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Unit 2 - Smoke Bomb_0
+    21300002: Unit 2 - Smoke Bomb_1
+    21300004: Unit 2 - Smoke Bomb_2
+    21300006: Unit 2 - Smoke Bomb_3
+    21300008: Unit 2 - Smoke Bomb_4
+    21300010: Unit 2 - Smoke Bomb_5
+    21300012: Unit 2 - Smoke Bomb_6
+    21300014: Unit 2 - Smoke Bomb_7
+    21300016: Unit 2 - Smoke Bomb_8
+    21300018: Unit 2 - Smoke Bomb_9
+    21300020: Unit 2 - Smoke Bomb_10
+    21300022: Unit 2 - Smoke Bomb_11
+    21300024: Unit 2 - Smoke Bomb_12
+    21300026: Unit 2 - Smoke Bomb_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Unit 2 - Smoke Bomb_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 131
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 131
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 131
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 131
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 75
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 75
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_8
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 75
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 75
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 19
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Smoke Bomb_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 19
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

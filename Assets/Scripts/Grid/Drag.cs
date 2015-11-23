@@ -3,52 +3,82 @@ using System.Collections;
 
 public class Drag : Snap {
 
+    [SerializeField]
+    private bool placed;
+
     private Vector3 screenPoint;
     private Vector3 offset;
 
-    //stores the position on mouse down,
-    //returns to this location on mousse up and the object is still coliding after snapped to the grid.
-    private Vector2 startPos;
-
     private bool collision;
 
-    private SpriteRenderer rangeIndicator;
+    private GameObject rangeIndicator;
+
+    private GameObject upgradeMenu;
 
     private Rigidbody2D rb;
+
+    private bool dragging;
+
+    private bool showUpgrades;
+
+    private bool showRange;
 
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
 
-        rangeIndicator = transform.Find("TowerRange").GetComponent<SpriteRenderer>();
-        if(rangeIndicator != null) rangeIndicator.enabled = false;
+        rangeIndicator = transform.Find("ShootRange").gameObject;
+        if(rangeIndicator != null) rangeIndicator.SetActive(false);
+        upgradeMenu = transform.Find("UpgradeMenu").gameObject;
+        if (upgradeMenu != null) upgradeMenu.SetActive(false);
+    } 
+
+    private void Upgrade() {
+        showUpgrades = !showUpgrades;
+        upgradeMenu.SetActive(showUpgrades);
+        if (rangeIndicator != null)
+        {
+            showRange = !showRange;
+            rangeIndicator.SetActive(showRange);
+        }
     }
 
-    public virtual void OnClick()
+    private void MouseDown() {
+        if (placed) Upgrade();
+        else StartDrag();
+    }
+
+    public void StartDrag()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
 
-        startPos = transform.position;
-
         rb.isKinematic = false;
-        if (rangeIndicator != null) rangeIndicator.enabled = true;
+        if (rangeIndicator != null) rangeIndicator.SetActive(true);
+
+        dragging = true;
+       //StartCoroutine(Dragging());
     }
 
-    public virtual void OnPlace() {
-        if (collision)
-        {
-            transform.position = startPos;
-            collision = false;
-        }
+    private void MouseUp()
+    {
+        if (!placed) {
+            if (!collision) {
+                dragging = false;
+                placed = true;
 
-        rb.isKinematic = true;
-        if (rangeIndicator != null) rangeIndicator.enabled = false;
-        transform.position = new Vector3(transform.position.x, transform.position.y, -0.1f);
+                rb.isKinematic = true;
+                if (rangeIndicator != null) rangeIndicator.SetActive(false);
+            }
+         }
     }
-
-    public void OnDrag()
+    
+    void Update() {
+        if (dragging) Dragging();
+    }
+    
+    private void Dragging()
     {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
 
@@ -56,8 +86,14 @@ public class Drag : Snap {
 
         transform.position = SnapToGrid(curPosition);
 
-        if (!collision) startPos = transform.position;
+        if (rangeIndicator != null)
+        {
+            if (collision) rangeIndicator.SetActive(false);
+            else rangeIndicator.SetActive(true);
+        }
+
     }
+
 
     void OnCollisionStay2D(Collision2D other)
     {
@@ -75,8 +111,8 @@ public class Drag : Snap {
         }
     }
 
-    public Vector3 SetStartPosition {
-        set { startPos = value; }
+    public bool getPlaced {
+        get { return placed; }
     }
 
     public bool SetKinematic

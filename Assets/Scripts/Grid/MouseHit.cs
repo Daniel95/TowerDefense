@@ -1,41 +1,27 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class MouseHit : MonoBehaviour {
 
-    private Drag target;
+    private GameObject target;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
+        if (Input.GetMouseButtonDown(0)) {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
             if (hit.collider != null)
             {
-                Drag drag = hit.collider.GetComponent<Drag>();
-                if (drag != null)
-                {
-                    target = drag;
-                    target.OnClick();
-                }
+                hit.collider.SendMessage("MouseDown", SendMessageOptions.DontRequireReceiver);
+                target = hit.collider.gameObject;
             }
-        }
-        else if (target != null)
-        {
-            if (Input.GetMouseButtonUp(0))
-            {
-                target.OnPlace();
-                target = null;
-            }
-            else
-            {
-                target.OnDrag();
-            }
+        } else if (Input.GetMouseButtonUp(0) && target != null) {
+            target.SendMessage("MouseUp", SendMessageOptions.DontRequireReceiver);
+            target = null;
         }
     }
-
-    public Drag SetTarget {
+    
+    public GameObject SetTarget {
         set { target = value; }
     }
+    
 }

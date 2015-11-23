@@ -13,7 +13,7 @@ public class MoveCamera : MonoBehaviour {
     private float upMoveZone , downMoveZone, leftMoveZone, rightMoveZone;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         screenHeight = Screen.height;
         screenWidth = Screen.width;
 
