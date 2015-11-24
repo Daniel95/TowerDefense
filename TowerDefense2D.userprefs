@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyMovements.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Grid\Waypoint.cs">
     <Files>
-      <File FileName="TowerDefense2D.sln" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyMovements.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Grid\Waypoint.cs" Line="13" Column="26" />
+      <File FileName="Assets\Scripts\WaypointPauser.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
