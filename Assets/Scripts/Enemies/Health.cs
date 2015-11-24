@@ -23,7 +23,7 @@ public class Health : MonoBehaviour {
         healthbar.localScale = new Vector3(health * startScale / startHealth, 1, 1);
     }
 
-    public void TakeDamage(float dmg) {
+    public virtual void TakeDamage(float dmg) {
         health -= dmg;
         if (health > 0)
         {
@@ -38,6 +38,10 @@ public class Health : MonoBehaviour {
             healthbar.localScale = new Vector3(0, 1, 1);
             Die();
         }
+    }
+
+    public void RestoreHealth(float heal) {
+        if (health < startHealth) health += heal; 
     }
 
     protected virtual void Die() {

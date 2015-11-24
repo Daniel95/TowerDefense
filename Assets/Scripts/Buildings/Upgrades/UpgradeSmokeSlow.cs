@@ -3,7 +3,7 @@
 public class UpgradeSmokeSlow : ParentUpgrade {
     
     [SerializeField]
-    private float speedDividend;
+    private float speedMultiply;
 
     private ShootSmokeBomb tower;
 
@@ -16,6 +16,6 @@ public class UpgradeSmokeSlow : ParentUpgrade {
     protected override void UpgradeTower()
     {
         base.UpgradeTower();
-        tower.setSpeedDividend = speedDividend;
+        tower.setSpeedDividend = speedMultiply;
     }
 }

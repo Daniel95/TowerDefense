@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class SpawnWave : MonoBehaviour {
 
@@ -26,17 +27,27 @@ public class SpawnWave : MonoBehaviour {
 
     private float wavePoints;
 
+    private List<CollectResources> ResourceBuildings = new List<CollectResources>();
+
+    void Awake() {
+        foreach (CollectResources building in GameObject.FindObjectsOfType<CollectResources>())
+        {
+            ResourceBuildings.Add(building);
+        }
+    }
+
     public void StartNewWave() {
         wavePoints = wavePointsStartValue;
         StartCoroutine(SpawnEnemies(wavePoints));
         wavePointsStartValue += wavePointsIncrement;
+        SetResourceCollection(true);
     }
 
     IEnumerator SpawnEnemies(float _points)
     {
         //This function will spawn random enemies that are stored in a array,
         //at random spots that are also stored in a array.
-        
+
         //for each unit I spawn I spend _points depeding of the strength of that indiviual unit.
 
         //when all the _points are used this functions stops and the wave is spawned.
@@ -53,8 +64,8 @@ public class SpawnWave : MonoBehaviour {
             if (counter < 0)
             {
                 //make a float that contains the spawn chance each enemy has to spawn
-                float enemySpawnChance = 1;
-                enemySpawnChance /= enemies.Length;
+                float enemySpawnChance = 1f / enemies.Length;
+
                 //make a random number to choose a enemy
                 float randomE = Random.Range(0, 0.99f);
 
@@ -68,15 +79,20 @@ public class SpawnWave : MonoBehaviour {
                         _points -= enemiesCost[e];
 
                         //same routine as the first for loop but now we choose a spawn point
-                        float spawnPointChance = 1;
-                        spawnPointChance /= spawnPoints.Length;
+
+                        float spawnPointChance = 1f / spawnPoints.Length;
+
                         float randomS = Random.Range(0, 0.99f);
 
                         for (int s = 0; s < enemies.Length; s++)
                         {
                             if (spawnPointChance * s < randomS && spawnPointChance * (s + 1) > randomS)
                             {
-                                Instantiate(enemies[e], spawnPoints[s].transform.position, spawnPoints[s].transform.rotation);
+                                GameObject enemy = Instantiate(enemies[e], spawnPoints[s].transform.position, spawnPoints[s].transform.rotation) as GameObject;
+                                if (_points <= 0) {
+                                    enemy.GetComponent<Dies>().LastEnemy = true;
+                                    print("lastEnemy");
+                                }
                                 print("winner = " + e + " pointsleft = " + _points);
                                 counter = Random.Range(spawnTimeMin, spawnTimeMax);
                             }
@@ -86,6 +102,13 @@ public class SpawnWave : MonoBehaviour {
             }
             counter--;
             yield return new WaitForFixedUpdate();
+        }
+    }
+
+    public void SetResourceCollection(bool _waveGoing) {
+        foreach (CollectResources building in ResourceBuildings)
+        {
+            building.WaveGoing = _waveGoing;
         }
     }
 }

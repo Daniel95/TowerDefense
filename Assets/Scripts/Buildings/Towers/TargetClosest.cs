@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class TargetClosest : DetectTarget {
+public class TargetClosest : WaitForCheck {
 
     private float shortestDist;
 

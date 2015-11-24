@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AOEAtTower : DetectTarget {
+public class AOEAtTower : WaitForCheck {
 
 	// Use this for initialization
 	void Start () {

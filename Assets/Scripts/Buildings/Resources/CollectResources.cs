@@ -20,6 +20,8 @@ public class CollectResources : MonoBehaviour {
 
     private TotalResources totalResources;
 
+    private bool waveGoing = false;
+
     void Awake()
     {
         totalResources = GameObject.Find("Total Resources").GetComponent<TotalResources>();
@@ -28,7 +30,7 @@ public class CollectResources : MonoBehaviour {
 
     void AddScore()
     {
-        if (colletingResources) {
+        if (colletingResources && waveGoing) {
             totalResources.IncrementResources(increaseResources);
             SpawnText();
         }
@@ -43,5 +45,9 @@ public class CollectResources : MonoBehaviour {
     public bool CollectingResources {
         set { colletingResources = value; }
         get { return colletingResources; }
+    }
+
+    public bool WaveGoing {
+        set { waveGoing = value; }
     }
 }

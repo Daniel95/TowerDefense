@@ -27,7 +27,7 @@ public class Drag : Snap {
         rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
 
-        rangeIndicator = transform.Find("ShootRange").gameObject;
+        rangeIndicator = transform.Find("Range").gameObject;
         if(rangeIndicator != null) rangeIndicator.SetActive(false);
         upgradeMenu = transform.Find("UpgradeMenu").gameObject;
         if (upgradeMenu != null) upgradeMenu.SetActive(false);

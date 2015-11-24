@@ -5,12 +5,12 @@ public class UpgradeSmokeRadius : ParentUpgrade {
     [SerializeField]
     private float radiusIncrement;
 
-    private DetectTarget tower;
+    private WaitForCheck tower;
 
     protected override void Awake()
     {
         base.Awake();
-        tower = GetComponentInParent<DetectTarget>();
+        tower = GetComponentInParent<WaitForCheck>();
     }
 
     protected override void UpgradeTower()

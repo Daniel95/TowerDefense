@@ -32,7 +32,7 @@ public class SmokeEffect : MonoBehaviour {
             transform.localScale = new Vector3(effectRange, effectRange, 1);
             foreach (Collider2D target in Physics2D.OverlapCircleAll(transform.position, effectRange, checkLayer)) {
                 target.GetComponent<Health>().TakeDamage(effectDamage);
-                target.GetComponent<FollowRoad>().SetMoveSpeed = effectSlow;
+                target.GetComponent<Waypoint>().SetMoveSpeed = effectSlow;
             }
             yield return new WaitForFixedUpdate();
         }
