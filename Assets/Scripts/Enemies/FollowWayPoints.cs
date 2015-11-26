@@ -148,14 +148,14 @@ public class FollowWayPoints : MonoBehaviour
     {
         rotation = (Mathf.Atan2(transform.position.y - currentPath[currentWaypointNumber].transform.position.y, currentPath[currentWaypointNumber].transform.position.x - transform.position.x) * 180 / Mathf.PI) + 180;
 
-        print(rotation);
+        //print(rotation);
 
         rotation = Mathf.RoundToInt(rotation / 90);
 
         //rotation = (int)rotation / 90;
 
-        print(rotation);
-        print(currentPath[currentWaypointNumber].transform.position);
+        //print(rotation);
+        //print(currentPath[currentWaypointNumber].transform.position);
 
         if (rotation == 0) rotation = 4;
 
@@ -171,12 +171,17 @@ public class FollowWayPoints : MonoBehaviour
         }
     }
 
+    public void DivideSpeed(float dividend)
+    {
+        moveSpeed = maxMoveSpeed / dividend;
+    }
+
     public float GetRotation
     {
         get { return rotation; }
     }
 
-    public float SetMoveSpeed
+    public float SetMoveSpeedMultiply
     {
         set { moveSpeed *= value; }
     }

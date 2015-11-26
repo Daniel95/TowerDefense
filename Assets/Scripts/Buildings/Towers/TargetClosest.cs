@@ -41,7 +41,7 @@ public class TargetClosest : WaitForCheck {
         if (TargetPos.x < transform.position.x) {
             transform.localScale = new Vector3(-1, 1, 1);
             foreach (Transform child in transform) {
-                if (child.name != "ShootRange")
+                if (child.name != "Range")
                 {
                     child.localScale = new Vector3(-1, 1, 1);
                 }
@@ -50,7 +50,7 @@ public class TargetClosest : WaitForCheck {
         else {
             transform.localScale = new Vector3(1, 1, 1);
             foreach (Transform child in transform) {
-                if (child.name != "ShootRange")
+                if (child.name != "Range")
                 {
                     child.localScale = new Vector3(1, 1, 1);
                 }

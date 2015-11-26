@@ -31,10 +31,10 @@ public class AOEBuff : AOE {
         else if (dir == 3) anim.Play("HowlDownView");
     }
 
-    protected override void DoSomething(Collider2D target)
+    protected override void Effect(Collider2D target)
     {
-        base.DoSomething(target);
+        base.Effect(target);
         if (randomBuff < 0.5f) target.GetComponent<Health>().RestoreHealth(heal);
-        else target.GetComponent<FollowWayPoints>().SetMoveSpeed = speedMultiply;
+        else target.GetComponent<FollowWayPoints>().SetMoveSpeedMultiply = speedMultiply;
     }
 }

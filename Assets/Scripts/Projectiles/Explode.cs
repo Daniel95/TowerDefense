@@ -5,29 +5,27 @@ public class Explode : Timer {
     [SerializeField]
     private GameObject smoke;
 
-    //private int smokeUpgrades;
-
     private float smokeRadius;
 
-    private int smokeDamage;
+    private float smokeDamage;
 
-    private float smokeSpeedDividend;
+    private float smokeSpeedDivide;
 
     public override void TimerOver()
     {
         base.TimerOver();
 
-        //spawn smoke
+        //smokeRadius, smokeDamage & smokeSpeedDivide is given by ShootSmokeBomb script. (the tower that shoots)
+        //when the timer expires the bomb explodes. 
+        //and this object spawns smoke
         GameObject smokeObject = Instantiate(smoke, transform.position, transform.rotation) as GameObject;
         SmokeEffect smokeEffect = smokeObject.GetComponent<SmokeEffect>();
-        smokeEffect.SetMaxRadius = smokeRadius;//1 + smokeUpgrades / 4;
-        smokeEffect.SetDamage = smokeDamage;//0.05f + smokeUpgrades / 30;
-        smokeEffect.SetSpeed = smokeSpeedDividend;//0.006f - smokeUpgrades / 800;
+        smokeEffect.StartSmoke(smokeRadius, smokeDamage, smokeSpeedDivide);
 
         Destroy(this.gameObject);
     }
 
-    public int SetSmokeDamage
+    public float SetSmokeDamage
     {
         set { smokeDamage = value; }
     }
@@ -37,8 +35,8 @@ public class Explode : Timer {
         set { smokeRadius = value; }
     }
 
-    public float SetSpeedDividend
+    public float SetSpeedDivide
     {
-        set { smokeSpeedDividend = value; }
+        set { smokeSpeedDivide = value; }
     }
 }

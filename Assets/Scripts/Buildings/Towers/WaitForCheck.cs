@@ -29,14 +29,13 @@ public class WaitForCheck : MonoBehaviour {
 
     }
 
-    public float SetCooldown {
-        set { cooldown /= value; }
+    public void upgradeSpeed(float _upgrade) {
+        cooldown /= _upgrade;
     }
 
     public void UpgradeRange(float increment) {
         rangeIndicator.localScale = new Vector3(rangeIndicator.localScale.x + increment, rangeIndicator.localScale.y  + increment, rangeIndicator.localScale.z);
         print(rangeIndicator.GetComponent<SpriteRenderer>().bounds.size.x / 2);
         range += increment * 2;
-        print("range: " + range);
     }
 }

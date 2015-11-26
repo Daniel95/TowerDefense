@@ -7,14 +7,13 @@ public class AOE : WaitForCheck {
     {
         base.CheckForTarget();
 
-        float randomBuff = Random.Range(0, 0.99f);
         foreach (Collider2D target in Physics2D.OverlapCircleAll(transform.position, range, checkLayer))
         {
-            DoSomething(target);
+            Effect(target);
         }
     }
 
-    virtual protected void DoSomething(Collider2D target)
+    virtual protected void Effect(Collider2D target)
     {
 
     }

@@ -24,7 +24,7 @@ public class ParentUpgrade : MonoBehaviour
         }
     }
 
-    private void MouseDown()
+    private void OnMouseDown()
     {
         if (totalResources.GetResources > price && upgrades.PointsSpend < upgrades.TotalPoints)
         {

@@ -4,10 +4,10 @@ using System.Collections;
 public class AOEAtTower : AOE
 {
     [SerializeField]
-    private float damage;
+    private float startDamage;
 
     [SerializeField]
-    private float speedMultiply;
+    private float startSpeedDivider;
 
     protected override void Awake()
     {
@@ -19,10 +19,19 @@ public class AOEAtTower : AOE
         base.CheckForTarget();
     }
 
-    protected override void DoSomething(Collider2D target)
+    protected override void Effect(Collider2D target)
     {
-        base.DoSomething(target);
-        target.GetComponent<Health>().TakeDamage(damage);
-        target.GetComponent<FollowWayPoints>().SetMoveSpeed = speedMultiply;
+        base.Effect(target);
+        target.GetComponent<Health>().TakeDamage(startDamage);
+        target.GetComponent<FollowWayPoints>().DivideSpeed(startSpeedDivider);
+    }
+
+    public void UpgradeSpeedDivider(float _upgrade) {
+        startSpeedDivider += _upgrade;
+    }
+
+    public void UpgradeDamage(float _upgrade)
+    {
+        startDamage += _upgrade;
     }
 }

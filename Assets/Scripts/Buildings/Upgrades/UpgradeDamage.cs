@@ -16,6 +16,6 @@ public class UpgradeDamage : ParentUpgrade {
     protected override void UpgradeTower()
     {
         base.UpgradeTower();
-        shooter.SetDamage = damageIncrement;
+        shooter.UpgradeDamage(damageIncrement);
     }
 }

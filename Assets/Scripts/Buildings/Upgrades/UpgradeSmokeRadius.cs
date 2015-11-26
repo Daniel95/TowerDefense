@@ -16,6 +16,6 @@ public class UpgradeSmokeRadius : ParentUpgrade {
     protected override void UpgradeTower()
     {
         base.UpgradeTower();
-        tower.SetCooldown = radiusIncrement;
+        tower.UpgradeRange(radiusIncrement);
     }
 }

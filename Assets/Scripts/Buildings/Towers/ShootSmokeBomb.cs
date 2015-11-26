@@ -6,31 +6,27 @@ public class ShootSmokeBomb : ShootProjectile
     private int divideDamage;
 
     [SerializeField]
-    private float startSpeedDividend;
-
-    private float upgradeSpeedDividend;
+    private float startSpeedDivider;
     
     [SerializeField]
     private float startRadius;
-    
-    private float upgradeRadius;
 
     protected override void FireProjectile(Vector3 targetPos)
     {
         base.FireProjectile(targetPos);
-        Explode explosion = projectile.GetComponent<Explode>();
-        explosion.SetSmokeDamage = damage / divideDamage;
-        explosion.SetSmokeRadius = startRadius + upgradeRadius;
-        explosion.SetSpeedDividend = startSpeedDividend + upgradeSpeedDividend;
+        Explode explosion = bullet.GetComponent<Explode>();
+        explosion.SetSmokeDamage = (float)damage / (float)divideDamage;
+        explosion.SetSmokeRadius = startRadius;
+        explosion.SetSpeedDivide = startSpeedDivider;
     }
 
-    public float SetUpgradeSpeedDividend
+    public void UpgradeSpeedDivider(float _upgrade)
     {
-        set { upgradeSpeedDividend = value; }
+        startSpeedDivider += _upgrade;
     }
 
-    public float setUpgradeRadius
+    public void UpgradeRadius(float _upgrade)
     {
-        set { upgradeRadius = value; }
+        startRadius += _upgrade;
     }
 }

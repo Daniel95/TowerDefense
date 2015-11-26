@@ -1,9 +1,157 @@
 fileFormatVersion: 2
-guid: 50debd9e127fa7649b04b2c3b9711299
-timeCreated: 1448493078
+guid: f6acdc9dba59e4f40ad16dff860019ae
+timeCreated: 1448569429
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Boomhut instorten aparte onderdelen_0
+    21300002: Boomhut instorten aparte onderdelen_1
+    21300004: Boomhut instorten aparte onderdelen_2
+    21300006: Boomhut instorten aparte onderdelen_3
+    21300008: Boomhut instorten aparte onderdelen_4
+    21300010: Boomhut instorten aparte onderdelen_5
+    21300012: Boomhut instorten aparte onderdelen_6
+    21300014: Boomhut instorten aparte onderdelen_7
+    21300016: Boomhut instorten aparte onderdelen_8
+    21300018: Boomhut instorten aparte onderdelen_9
+    21300020: Boomhut instorten aparte onderdelen_10
+    21300022: Boomhut instorten aparte onderdelen_11
+    21300024: Boomhut instorten aparte onderdelen_12
+    21300026: Boomhut instorten aparte onderdelen_13
+    21300028: Boomhut instorten aparte onderdelen_14
+    21300030: Boomhut instorten aparte onderdelen_15
+    21300032: Boomhut instorten aparte onderdelen_16
+    21300034: Boomhut instorten aparte onderdelen_17
+    21300036: Boomhut instorten aparte onderdelen_18
+    21300038: Boomhut instorten aparte onderdelen_19
+    21300040: Boomhut instorten aparte onderdelen_20
+    21300042: Boomhut instorten aparte onderdelen_21
+    21300044: Boomhut instorten aparte onderdelen_22
+    21300046: Boomhut instorten aparte onderdelen_23
+    21300048: Boomhut instorten aparte onderdelen_24
+    21300050: Boomhut instorten aparte onderdelen_25
+    21300052: Boomhut instorten aparte onderdelen_26
+    21300054: Boomhut instorten aparte onderdelen_27
+    21300056: Boomhut instorten aparte onderdelen_28
+    21300058: Boomhut instorten aparte onderdelen_29
+    21300060: Boomhut instorten aparte onderdelen_30
+    21300062: Boomhut instorten aparte onderdelen_31
+    21300064: Boomhut instorten aparte onderdelen_32
+    21300066: Boomhut instorten aparte onderdelen_33
+    21300068: Boomhut instorten aparte onderdelen_34
+    21300070: Boomhut instorten aparte onderdelen_35
+    21300072: Boomhut instorten aparte onderdelen_36
+    21300074: Boomhut instorten aparte onderdelen_37
+    21300076: Boomhut instorten aparte onderdelen_38
+    21300078: Boomhut instorten aparte onderdelen_39
+    21300080: Boomhut instorten aparte onderdelen_40
+    21300082: Boomhut instorten aparte onderdelen_41
+    21300084: Boomhut instorten aparte onderdelen_42
+    21300086: Boomhut instorten aparte onderdelen_43
+    21300088: Boomhut instorten aparte onderdelen_44
+    21300090: Boomhut instorten aparte onderdelen_45
+    21300092: Boomhut instorten aparte onderdelen_46
+    21300094: Boomhut instorten aparte onderdelen_47
+    21300096: Boomhut instorten aparte onderdelen_48
+    21300098: Boomhut instorten aparte onderdelen_49
+    21300100: Boomhut instorten aparte onderdelen_50
+    21300102: Boomhut instorten aparte onderdelen_51
+    21300104: Boomhut instorten aparte onderdelen_52
+    21300106: Boomhut instorten aparte onderdelen_53
+    21300108: Boomhut instorten aparte onderdelen_54
+    21300110: Boomhut instorten aparte onderdelen_55
+    21300112: Boomhut instorten aparte onderdelen_56
+    21300114: Boomhut instorten aparte onderdelen_57
+    21300116: Boomhut instorten aparte onderdelen_58
+    21300118: Boomhut instorten aparte onderdelen_59
+    21300120: Boomhut instorten aparte onderdelen_60
+    21300122: Boomhut instorten aparte onderdelen_61
+    21300124: Boomhut instorten aparte onderdelen_62
+    21300126: Boomhut instorten aparte onderdelen_63
+    21300128: Boomhut instorten aparte onderdelen_64
+    21300130: Boomhut instorten aparte onderdelen_65
+    21300132: Boomhut instorten aparte onderdelen_66
+    21300134: Boomhut instorten aparte onderdelen_67
+    21300136: Boomhut instorten aparte onderdelen_68
+    21300138: Boomhut instorten aparte onderdelen_69
+    21300140: Boomhut instorten aparte onderdelen_70
+    21300142: Boomhut instorten aparte onderdelen_71
+    21300144: Boomhut instorten aparte onderdelen_72
+    21300146: Boomhut instorten aparte onderdelen_73
+    21300148: Boomhut instorten aparte onderdelen_74
+    21300150: Boomhut instorten aparte onderdelen_75
+    21300152: Boomhut instorten aparte onderdelen_76
+    21300154: Boomhut instorten aparte onderdelen_77
+    21300156: Boomhut instorten aparte onderdelen_78
+    21300158: Boomhut instorten aparte onderdelen_79
+    21300160: Boomhut instorten aparte onderdelen_80
+    21300162: Boomhut instorten aparte onderdelen_81
+    21300164: Boomhut instorten aparte onderdelen_82
+    21300166: Boomhut instorten aparte onderdelen_83
+    21300168: Boomhut instorten aparte onderdelen_84
+    21300170: Boomhut instorten aparte onderdelen_85
+    21300172: Boomhut instorten aparte onderdelen_86
+    21300174: Boomhut instorten aparte onderdelen_87
+    21300176: Boomhut instorten aparte onderdelen_88
+    21300178: Boomhut instorten aparte onderdelen_89
+    21300180: Boomhut instorten aparte onderdelen_90
+    21300182: Boomhut instorten aparte onderdelen_91
+    21300184: Boomhut instorten aparte onderdelen_92
+    21300186: Boomhut instorten aparte onderdelen_93
+    21300188: Boomhut instorten aparte onderdelen_94
+    21300190: Boomhut instorten aparte onderdelen_95
+    21300192: Boomhut instorten aparte onderdelen_96
+    21300194: Boomhut instorten aparte onderdelen_97
+    21300196: Boomhut instorten aparte onderdelen_98
+    21300198: Boomhut instorten aparte onderdelen_99
+    21300200: Boomhut instorten aparte onderdelen_100
+    21300202: Boomhut instorten aparte onderdelen_101
+    21300204: Boomhut instorten aparte onderdelen_102
+    21300206: Boomhut instorten aparte onderdelen_103
+    21300208: Boomhut instorten aparte onderdelen_104
+    21300210: Boomhut instorten aparte onderdelen_105
+    21300212: Boomhut instorten aparte onderdelen_106
+    21300214: Boomhut instorten aparte onderdelen_107
+    21300216: Boomhut instorten aparte onderdelen_108
+    21300218: Boomhut instorten aparte onderdelen_109
+    21300220: Boomhut instorten aparte onderdelen_110
+    21300222: Boomhut instorten aparte onderdelen_111
+    21300224: Boomhut instorten aparte onderdelen_112
+    21300226: Boomhut instorten aparte onderdelen_113
+    21300228: Boomhut instorten aparte onderdelen_114
+    21300230: Boomhut instorten aparte onderdelen_115
+    21300232: Boomhut instorten aparte onderdelen_116
+    21300234: Boomhut instorten aparte onderdelen_117
+    21300236: Boomhut instorten aparte onderdelen_118
+    21300238: Boomhut instorten aparte onderdelen_119
+    21300240: Boomhut instorten aparte onderdelen_120
+    21300242: Boomhut instorten aparte onderdelen_121
+    21300244: Boomhut instorten aparte onderdelen_122
+    21300246: Boomhut instorten aparte onderdelen_123
+    21300248: Boomhut instorten aparte onderdelen_124
+    21300250: Boomhut instorten aparte onderdelen_125
+    21300252: Boomhut instorten aparte onderdelen_126
+    21300254: Boomhut instorten aparte onderdelen_127
+    21300256: Boomhut instorten aparte onderdelen_128
+    21300258: Boomhut instorten aparte onderdelen_129
+    21300260: Boomhut instorten aparte onderdelen_130
+    21300262: Boomhut instorten aparte onderdelen_131
+    21300264: Boomhut instorten aparte onderdelen_132
+    21300266: Boomhut instorten aparte onderdelen_133
+    21300268: Boomhut instorten aparte onderdelen_134
+    21300270: Boomhut instorten aparte onderdelen_135
+    21300272: Boomhut instorten aparte onderdelen_136
+    21300274: Boomhut instorten aparte onderdelen_137
+    21300276: Boomhut instorten aparte onderdelen_138
+    21300278: Boomhut instorten aparte onderdelen_139
+    21300280: Boomhut instorten aparte onderdelen_140
+    21300282: Boomhut instorten aparte onderdelen_141
+    21300284: Boomhut instorten aparte onderdelen_142
+    21300286: Boomhut instorten aparte onderdelen_143
+    21300288: Boomhut instorten aparte onderdelen_144
+    21300290: Boomhut instorten aparte onderdelen_145
+    21300292: Boomhut instorten aparte onderdelen_146
+    21300294: Boomhut instorten aparte onderdelen_147
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +186,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +197,1357 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Boomhut instorten aparte onderdelen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_7
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_9
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_10
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_11
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_12
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_13
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_14
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 3523
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_17
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_19
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_20
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_21
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_22
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_23
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_24
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_25
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_26
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_27
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_28
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_29
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 3131
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_31
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_34
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_35
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_36
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_37
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_38
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_39
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_40
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_41
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_42
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_43
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_44
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 2739
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_46
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_48
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_49
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_50
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_51
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_52
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_53
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_54
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_55
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_56
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_57
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_58
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_59
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 2347
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_61
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_62
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_63
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_64
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_65
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_66
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_67
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_68
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_69
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_70
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_71
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_72
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_73
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_74
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 1955
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_76
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_77
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_78
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_79
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_80
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_81
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_82
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_83
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_84
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_85
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_86
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_87
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_88
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_89
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 1563
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_91
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_92
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_93
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_94
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_95
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_96
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_97
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_98
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_99
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_100
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_101
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_102
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_103
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_104
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 1171
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_107
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_108
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_109
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_110
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_111
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_112
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_113
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_114
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_115
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_116
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_117
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_118
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_119
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 779
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_121
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_122
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_123
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_124
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_125
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_126
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_127
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_128
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_129
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_130
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_131
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_132
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_133
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Boomhut instorten aparte onderdelen_134
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 387
+        width: 262
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

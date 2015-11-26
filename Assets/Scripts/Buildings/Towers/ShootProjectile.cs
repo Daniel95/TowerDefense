@@ -11,6 +11,8 @@ public class ShootProjectile : TargetClosest {
     [SerializeField]
     protected int damage;
 
+    protected GameObject bullet;
+
     private Drag drag;
 
     protected override void Awake()
@@ -29,15 +31,14 @@ public class ShootProjectile : TargetClosest {
     }
 
     protected virtual void FireProjectile(Vector3 targetPos) {
-        GameObject bullet = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+        bullet = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
         BulletInfo bulletinfo = bullet.GetComponent<BulletInfo>();
         bulletinfo.setSpeed = projectileSpeed;
         bulletinfo.setTargetPos = targetPos;
         bulletinfo.setDamage = damage;
     }
 
-    public int SetDamage
-    {
-        set { damage += value; }
+    public void UpgradeDamage(int _upgrade) {
+        damage += _upgrade;
     }
 }

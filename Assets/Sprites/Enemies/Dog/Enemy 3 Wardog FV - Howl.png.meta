@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: b9a0e3951a741714a9b45c09cfb8b3f9
-timeCreated: 1448370382
+guid: 0b39d6eae210113418ba01bfc9ead855
+timeCreated: 1448564454
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -80,69 +80,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 286
-        width: 66
-        height: 88
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 286
-        width: 66
-        height: 88
+        x: 98
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_2
       rect:
         serializedVersion: 2
-        x: 132
-        y: 286
-        width: 66
-        height: 88
+        x: 196
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_3
       rect:
         serializedVersion: 2
-        x: 198
-        y: 286
-        width: 66
-        height: 88
+        x: 294
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_4
       rect:
         serializedVersion: 2
-        x: 264
-        y: 286
-        width: 66
-        height: 88
+        x: 392
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_5
       rect:
         serializedVersion: 2
-        x: 330
-        y: 286
-        width: 66
-        height: 88
+        x: 490
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_6
       rect:
         serializedVersion: 2
-        x: 396
-        y: 286
-        width: 66
-        height: 88
+        x: 588
+        y: 414
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,69 +150,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 198
-        width: 66
-        height: 88
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_8
       rect:
         serializedVersion: 2
-        x: 66
-        y: 198
-        width: 66
-        height: 88
+        x: 98
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_9
       rect:
         serializedVersion: 2
-        x: 132
-        y: 198
-        width: 66
-        height: 88
+        x: 196
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_10
       rect:
         serializedVersion: 2
-        x: 198
-        y: 198
-        width: 66
-        height: 88
+        x: 294
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_11
       rect:
         serializedVersion: 2
-        x: 264
-        y: 198
-        width: 66
-        height: 88
+        x: 392
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_12
       rect:
         serializedVersion: 2
-        x: 330
-        y: 198
-        width: 66
-        height: 88
+        x: 490
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_13
       rect:
         serializedVersion: 2
-        x: 396
-        y: 198
-        width: 66
-        height: 88
+        x: 588
+        y: 318
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,69 +220,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 110
-        width: 66
-        height: 88
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_15
       rect:
         serializedVersion: 2
-        x: 66
-        y: 110
-        width: 66
-        height: 88
+        x: 98
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_16
       rect:
         serializedVersion: 2
-        x: 132
-        y: 110
-        width: 66
-        height: 88
+        x: 196
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_17
       rect:
         serializedVersion: 2
-        x: 198
-        y: 110
-        width: 66
-        height: 88
+        x: 294
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_18
       rect:
         serializedVersion: 2
-        x: 264
-        y: 110
-        width: 66
-        height: 88
+        x: 392
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_19
       rect:
         serializedVersion: 2
-        x: 330
-        y: 110
-        width: 66
-        height: 88
+        x: 490
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_20
       rect:
         serializedVersion: 2
-        x: 396
-        y: 110
-        width: 66
-        height: 88
+        x: 588
+        y: 222
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,49 +290,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 22
-        width: 66
-        height: 88
+        y: 126
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_22
       rect:
         serializedVersion: 2
-        x: 66
-        y: 22
-        width: 66
-        height: 88
+        x: 98
+        y: 126
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_23
       rect:
         serializedVersion: 2
-        x: 132
-        y: 22
-        width: 66
-        height: 88
+        x: 196
+        y: 126
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_24
       rect:
         serializedVersion: 2
-        x: 198
-        y: 22
-        width: 66
-        height: 88
+        x: 294
+        y: 126
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog FV - Howl_25
       rect:
         serializedVersion: 2
-        x: 264
-        y: 22
-        width: 66
-        height: 88
+        x: 392
+        y: 126
+        width: 98
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

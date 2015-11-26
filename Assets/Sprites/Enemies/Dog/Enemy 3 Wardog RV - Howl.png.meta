@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3e896ec6d02fbcc4da8532b2f93f9c34
-timeCreated: 1448370484
+guid: 28e4428f192f12849ab3cd9702490819
+timeCreated: 1448564469
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -24,6 +24,7 @@ TextureImporter:
     21300034: Enemy 3 Wardog RV - Howl_17
     21300036: Enemy 3 Wardog RV - Howl_18
     21300038: Enemy 3 Wardog RV - Howl_19
+    21300040: Enemy 3 Wardog RV - Howl_20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,69 +75,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 246
-        width: 66
-        height: 88
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 246
-        width: 66
-        height: 88
+        x: 98
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_2
       rect:
         serializedVersion: 2
-        x: 132
-        y: 246
-        width: 66
-        height: 88
+        x: 196
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_3
       rect:
         serializedVersion: 2
-        x: 198
-        y: 246
-        width: 66
-        height: 88
+        x: 294
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_4
       rect:
         serializedVersion: 2
-        x: 264
-        y: 246
-        width: 66
-        height: 88
+        x: 392
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_5
       rect:
         serializedVersion: 2
-        x: 330
-        y: 246
-        width: 66
-        height: 88
+        x: 490
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_6
       rect:
         serializedVersion: 2
-        x: 396
-        y: 246
-        width: 66
-        height: 88
+        x: 588
+        y: 264
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,69 +145,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 158
-        width: 66
-        height: 88
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_8
       rect:
         serializedVersion: 2
-        x: 66
-        y: 158
-        width: 66
-        height: 88
+        x: 98
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_9
       rect:
         serializedVersion: 2
-        x: 132
-        y: 158
-        width: 66
-        height: 88
+        x: 196
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_10
       rect:
         serializedVersion: 2
-        x: 198
-        y: 158
-        width: 66
-        height: 88
+        x: 294
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_11
       rect:
         serializedVersion: 2
-        x: 264
-        y: 158
-        width: 66
-        height: 88
+        x: 392
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_12
       rect:
         serializedVersion: 2
-        x: 330
-        y: 158
-        width: 66
-        height: 88
+        x: 490
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_13
       rect:
         serializedVersion: 2
-        x: 396
-        y: 158
-        width: 66
-        height: 88
+        x: 588
+        y: 166
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,59 +215,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 70
-        width: 66
-        height: 88
+        y: 68
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_15
       rect:
         serializedVersion: 2
-        x: 66
-        y: 70
-        width: 66
-        height: 88
+        x: 98
+        y: 68
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_16
       rect:
         serializedVersion: 2
-        x: 132
-        y: 70
-        width: 66
-        height: 88
+        x: 196
+        y: 68
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_17
       rect:
         serializedVersion: 2
-        x: 198
-        y: 70
-        width: 66
-        height: 88
+        x: 294
+        y: 68
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_18
       rect:
         serializedVersion: 2
-        x: 264
-        y: 70
-        width: 66
-        height: 88
+        x: 392
+        y: 68
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Enemy 3 Wardog RV - Howl_19
       rect:
         serializedVersion: 2
-        x: 330
-        y: 70
-        width: 66
-        height: 88
+        x: 490
+        y: 68
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy 3 Wardog RV - Howl_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 68
+        width: 98
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

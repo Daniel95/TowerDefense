@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cc55741b03272cd428c0ae3dbc8c7178
-timeCreated: 1448368872
+guid: ca00543c8b714e94688a7a278cf178ff
+timeCreated: 1448564486
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -82,8 +82,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 615
-        width: 102
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -91,9 +91,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 615
-        width: 102
+        x: 122
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -101,9 +101,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_2
       rect:
         serializedVersion: 2
-        x: 204
-        y: 615
-        width: 102
+        x: 244
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -111,9 +111,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_3
       rect:
         serializedVersion: 2
-        x: 306
-        y: 615
-        width: 102
+        x: 366
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -121,9 +121,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 521
-        width: 102
+        x: 488
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -131,9 +131,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_5
       rect:
         serializedVersion: 2
-        x: 102
-        y: 521
-        width: 102
+        x: 610
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_6
       rect:
         serializedVersion: 2
-        x: 204
-        y: 521
-        width: 102
+        x: 732
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -151,9 +151,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_7
       rect:
         serializedVersion: 2
-        x: 306
-        y: 521
-        width: 102
+        x: 854
+        y: 310
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,8 +162,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 427
-        width: 102
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,9 +171,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_9
       rect:
         serializedVersion: 2
-        x: 102
-        y: 427
-        width: 102
+        x: 122
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,9 +181,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_10
       rect:
         serializedVersion: 2
-        x: 204
-        y: 427
-        width: 102
+        x: 244
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,9 +191,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_11
       rect:
         serializedVersion: 2
-        x: 306
-        y: 427
-        width: 102
+        x: 366
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -201,9 +201,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 333
-        width: 102
+        x: 488
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -211,9 +211,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_13
       rect:
         serializedVersion: 2
-        x: 102
-        y: 333
-        width: 102
+        x: 610
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,9 +221,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_14
       rect:
         serializedVersion: 2
-        x: 204
-        y: 333
-        width: 102
+        x: 732
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -231,9 +231,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_15
       rect:
         serializedVersion: 2
-        x: 306
-        y: 333
-        width: 102
+        x: 854
+        y: 216
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -242,8 +242,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 239
-        width: 102
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -251,9 +251,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_17
       rect:
         serializedVersion: 2
-        x: 102
-        y: 239
-        width: 102
+        x: 122
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -261,9 +261,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_18
       rect:
         serializedVersion: 2
-        x: 204
-        y: 239
-        width: 102
+        x: 244
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,9 +271,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_19
       rect:
         serializedVersion: 2
-        x: 306
-        y: 239
-        width: 102
+        x: 366
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -281,9 +281,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 145
-        width: 102
+        x: 488
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -291,9 +291,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_21
       rect:
         serializedVersion: 2
-        x: 102
-        y: 145
-        width: 102
+        x: 610
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -301,9 +301,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_22
       rect:
         serializedVersion: 2
-        x: 204
-        y: 145
-        width: 102
+        x: 732
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -311,9 +311,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_23
       rect:
         serializedVersion: 2
-        x: 306
-        y: 145
-        width: 102
+        x: 854
+        y: 122
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -322,8 +322,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
-        width: 102
+        y: 28
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -331,9 +331,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_25
       rect:
         serializedVersion: 2
-        x: 102
-        y: 51
-        width: 102
+        x: 122
+        y: 28
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -341,9 +341,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_26
       rect:
         serializedVersion: 2
-        x: 204
-        y: 51
-        width: 102
+        x: 244
+        y: 28
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -351,9 +351,9 @@ TextureImporter:
     - name: Enemy 3 Wardog SV - Howl_27
       rect:
         serializedVersion: 2
-        x: 306
-        y: 51
-        width: 102
+        x: 366
+        y: 28
+        width: 122
         height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
