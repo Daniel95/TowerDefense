@@ -1,9 +1,23 @@
 fileFormatVersion: 2
-guid: cbc7c303f8b999b49a0718973de379a9
-timeCreated: 1448397593
+guid: 1a1f5df4aa78b844ab337c6df9136f5b
+timeCreated: 1448493936
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Unit 2 - Watchtower B Attack_0
+    21300002: Unit 2 - Watchtower B Attack_1
+    21300004: Unit 2 - Watchtower B Attack_2
+    21300006: Unit 2 - Watchtower B Attack_3
+    21300008: Unit 2 - Watchtower B Attack_4
+    21300010: Unit 2 - Watchtower B Attack_5
+    21300012: Unit 2 - Watchtower B Attack_6
+    21300014: Unit 2 - Watchtower B Attack_7
+    21300016: Unit 2 - Watchtower B Attack_8
+    21300018: Unit 2 - Watchtower B Attack_9
+    21300020: Unit 2 - Watchtower B Attack_10
+    21300022: Unit 2 - Watchtower B Attack_11
+    21300024: Unit 2 - Watchtower B Attack_12
+    21300026: Unit 2 - Watchtower B Attack_13
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +63,147 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Unit 2 - Watchtower B Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_6
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_7
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 303
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 106
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 106
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 106
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 106
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower B Attack_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 106
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

@@ -20,7 +20,6 @@ public class Health : MonoBehaviour {
         healthbar = transform.Find("Healthbar");
         healthbarSprite = healthbar.GetComponent<SpriteRenderer>();
         startScale = healthbar.localScale.x;
-        healthbar.localScale = new Vector3(health * startScale / startHealth, 1, 1);
     }
 
     public virtual void TakeDamage(float dmg) {

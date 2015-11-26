@@ -23,11 +23,7 @@ public class Dies : Health {
             print("WaveOver");
             GameObject.Find("Start Wave").GetComponent<SpawnWave>().SetResourceCollection(false);
         }
-        Waypoint wayPoint = GetComponent<Waypoint>();
-
-        //anim.Play("HowlUpView");
-
-        //anim.SetBool("Die", true);
+        FollowWayPoints wayPoint = GetComponent<FollowWayPoints>();
 
         string animToPlay = "";
 
@@ -51,10 +47,6 @@ public class Dies : Health {
             yield return new WaitForFixedUpdate();
         }
         Destroy(this.gameObject);
-    }
-
-    void FixedUpdate() {
-        //if(anim != null)print(anim.GetCurrentAnimatorStateInfo(0).IsName("DieUpView"));
     }
 
     public bool LastEnemy {

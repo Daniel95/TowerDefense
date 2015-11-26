@@ -12,6 +12,9 @@ public class MoveCamera : MonoBehaviour {
 
     private float upMoveZone , downMoveZone, leftMoveZone, rightMoveZone;
 
+    [SerializeField]
+    private float upperBorder, downBorder, leftBorder, rightBorder;
+
 	// Use this for initialization
 	void Awake () {
         screenHeight = Screen.height;
@@ -26,10 +29,10 @@ public class MoveCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.mousePosition.x < leftMoveZone) moveHor -= cameraMoveSpeed;
-        else if(Input.mousePosition.x > rightMoveZone) moveHor += cameraMoveSpeed;
-        if (Input.mousePosition.y < downMoveZone) moveVert -= cameraMoveSpeed;
-        else if (Input.mousePosition.y > upMoveZone) moveVert += cameraMoveSpeed;
+        if (Input.mousePosition.x < leftMoveZone && leftBorder < transform.position.x) moveHor -= cameraMoveSpeed;
+        else if(Input.mousePosition.x > rightMoveZone && rightBorder > transform.position.x) moveHor += cameraMoveSpeed;
+        if (Input.mousePosition.y < downMoveZone && downBorder < transform.position.y) moveVert -= cameraMoveSpeed;
+        else if (Input.mousePosition.y > upMoveZone && upperBorder > transform.position.y) moveVert += cameraMoveSpeed;
         transform.position = new Vector3(moveHor, moveVert, -10);
     }
 }

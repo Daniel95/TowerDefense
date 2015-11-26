@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -29,7 +30,12 @@ public class SpawnWave : MonoBehaviour {
 
     private List<CollectResources> ResourceBuildings = new List<CollectResources>();
 
+    private Text waves;
+
+    private int waveCount;
+
     void Awake() {
+        waves = GameObject.Find("Wave Text").GetComponent<Text>();
         foreach (CollectResources building in GameObject.FindObjectsOfType<CollectResources>())
         {
             ResourceBuildings.Add(building);
@@ -37,6 +43,8 @@ public class SpawnWave : MonoBehaviour {
     }
 
     public void StartNewWave() {
+        waveCount++;
+        waves.text = waveCount.ToString();
         wavePoints = wavePointsStartValue;
         StartCoroutine(SpawnEnemies(wavePoints));
         wavePointsStartValue += wavePointsIncrement;
@@ -89,11 +97,13 @@ public class SpawnWave : MonoBehaviour {
                             if (spawnPointChance * s < randomS && spawnPointChance * (s + 1) > randomS)
                             {
                                 GameObject enemy = Instantiate(enemies[e], spawnPoints[s].transform.position, spawnPoints[s].transform.rotation) as GameObject;
+                                enemy.GetComponent<FollowWayPoints>().ChoosePath(s);
+
                                 if (_points <= 0) {
                                     enemy.GetComponent<Dies>().LastEnemy = true;
                                     print("lastEnemy");
                                 }
-                                print("winner = " + e + " pointsleft = " + _points);
+                                //print("winner = " + e + " pointsleft = " + _points);
                                 counter = Random.Range(spawnTimeMin, spawnTimeMax);
                             }
                         }

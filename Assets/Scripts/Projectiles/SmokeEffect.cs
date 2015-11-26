@@ -6,11 +6,11 @@ public class SmokeEffect : MonoBehaviour {
     [SerializeField]
     protected LayerMask checkLayer;
 
-    private float maxEffectRadius;// = 100;
+    private float maxEffectRadius;
 
-    private float effectDamage;// = 0.01f;
+    private float effectDamage;
 
-    private float effectSlow;// = 0.005f;
+    private float enemySlowedSpeed;
 
     void Awake() {
         StartCoroutine(Smoke());
@@ -20,7 +20,7 @@ public class SmokeEffect : MonoBehaviour {
     {
         print("smoke damage = " + effectDamage);
         print("smoke max radius = " + maxEffectRadius);
-        print("smoke slow dividend = " + effectSlow);
+        print("smoke slow dividend = " + enemySlowedSpeed);
 
         //effect range starts at 0.3f
         float effectRange = 0.3f;
@@ -32,7 +32,7 @@ public class SmokeEffect : MonoBehaviour {
             transform.localScale = new Vector3(effectRange, effectRange, 1);
             foreach (Collider2D target in Physics2D.OverlapCircleAll(transform.position, effectRange, checkLayer)) {
                 target.GetComponent<Health>().TakeDamage(effectDamage);
-                target.GetComponent<Waypoint>().SetMoveSpeed = effectSlow;
+                target.GetComponent<FollowWayPoints>().SetMoveSpeed = enemySlowedSpeed;
             }
             yield return new WaitForFixedUpdate();
         }
@@ -49,8 +49,8 @@ public class SmokeEffect : MonoBehaviour {
         set { effectDamage = value; }
     }
 
-    public float SetSlow
+    public float SetSpeed
     {
-        set { effectSlow = value; }
+        set { enemySlowedSpeed /= value; }
     }
 }

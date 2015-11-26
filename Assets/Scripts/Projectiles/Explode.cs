@@ -22,7 +22,7 @@ public class Explode : Timer {
         SmokeEffect smokeEffect = smokeObject.GetComponent<SmokeEffect>();
         smokeEffect.SetMaxRadius = smokeRadius;//1 + smokeUpgrades / 4;
         smokeEffect.SetDamage = smokeDamage;//0.05f + smokeUpgrades / 30;
-        smokeEffect.SetSlow = smokeSpeedDividend;//0.006f - smokeUpgrades / 800;
+        smokeEffect.SetSpeed = smokeSpeedDividend;//0.006f - smokeUpgrades / 800;
 
         Destroy(this.gameObject);
     }

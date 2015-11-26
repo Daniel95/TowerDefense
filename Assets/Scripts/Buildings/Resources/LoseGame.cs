@@ -9,6 +9,7 @@ public class LoseGame : Health {
 
         base.Awake();
         health = startHealth;
+        healthbar.localScale = new Vector3(health * startScale / startHealth, 1, 1);
     }
 
     public override void TakeDamage(float dmg)

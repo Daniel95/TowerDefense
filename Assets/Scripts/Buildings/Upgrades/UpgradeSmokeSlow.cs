@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
 public class UpgradeSmokeSlow : ParentUpgrade {
-    
+
     [SerializeField]
-    private float speedMultiply;
+    private float speedDividendIncrement;
 
     private ShootSmokeBomb tower;
 
@@ -16,6 +16,6 @@ public class UpgradeSmokeSlow : ParentUpgrade {
     protected override void UpgradeTower()
     {
         base.UpgradeTower();
-        tower.setSpeedDividend = speedMultiply;
+        tower.SetUpgradeSpeedDividend = speedDividendIncrement;
     }
 }
