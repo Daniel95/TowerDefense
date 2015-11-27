@@ -25,13 +25,21 @@ public class GameSpeed : MonoBehaviour {
         else if (gameSpeed == 1)
         {
             image.sprite = gameSpeedSprites[gameSpeed];
+<<<<<<< HEAD
             Time.timeScale = 3;
+=======
+            Time.timeScale = 2;
+>>>>>>> refs/remotes/origin/Daniel
             gameSpeed++;
         }
         else if (gameSpeed == 2)
         {
             image.sprite = gameSpeedSprites[gameSpeed];
+<<<<<<< HEAD
             Time.timeScale = 6;
+=======
+            Time.timeScale = 3;
+>>>>>>> refs/remotes/origin/Daniel
             gameSpeed = 0;
         }
     }

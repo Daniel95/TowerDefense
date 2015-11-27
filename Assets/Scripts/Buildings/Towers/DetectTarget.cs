@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class WaitForCheck : MonoBehaviour {
+public class DetectTarget : MonoBehaviour {
 
     [SerializeField]
     protected LayerMask checkLayer;
@@ -19,7 +19,7 @@ public class WaitForCheck : MonoBehaviour {
     virtual protected void Awake() {
         float startRandom = Random.Range(0, 0.99f);
         anim = GetComponent<Animator>();
-        rangeIndicator = transform.FindChild("Range");
+        rangeIndicator = transform.FindChild("ShootRange");
         range = rangeIndicator.GetComponent<SpriteRenderer>().bounds.size.x / 2;
         InvokeRepeating("CheckForTarget", startRandom, cooldown);
     }
@@ -29,16 +29,14 @@ public class WaitForCheck : MonoBehaviour {
 
     }
 
-    public void upgradeSpeed(float _upgrade) {
-        cooldown /= _upgrade;
+    public float SetCooldown {
+        set { cooldown /= value; }
     }
 
     public void UpgradeRange(float increment) {
         rangeIndicator.localScale = new Vector3(rangeIndicator.localScale.x + increment, rangeIndicator.localScale.y  + increment, rangeIndicator.localScale.z);
-<<<<<<< HEAD
-=======
         print(rangeIndicator.GetComponent<SpriteRenderer>().bounds.size.x / 2);
->>>>>>> refs/remotes/origin/Daniel
         range += increment * 2;
+        print("range: " + range);
     }
 }

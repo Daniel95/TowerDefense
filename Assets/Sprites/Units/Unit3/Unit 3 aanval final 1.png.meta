@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: 149ac29dce6c9004ba494e91b6cdcf6d
+<<<<<<< HEAD
 timeCreated: 1448588252
+=======
+timeCreated: 1448566821
+>>>>>>> refs/remotes/origin/Daniel
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,6 +64,7 @@ TextureImporter:
     21300106: Unit 3 aanval final 1_53
     21300108: Unit 3 aanval final 1_54
     21300110: Unit 3 aanval final 1_55
+<<<<<<< HEAD
     21300112: Unit 3 aanval final 1_56
     21300114: Unit 3 aanval final 1_57
     21300116: Unit 3 aanval final 1_58
@@ -1459,6 +1464,8 @@ TextureImporter:
     21302904: Unit 3 aanval final 1_1452
     21302906: Unit 3 aanval final 1_1453
     21302908: Unit 3 aanval final 1_1454
+=======
+>>>>>>> refs/remotes/origin/Daniel
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -1509,89 +1516,151 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 2622
         width: 432
         height: 428
+=======
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 2622
         width: 432
         height: 428
+=======
+        x: 416
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 864
         y: 2622
         width: 432
         height: 428
+=======
+        x: 832
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1296
         y: 2622
         width: 432
         height: 428
+=======
+        x: 1248
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1728
         y: 2622
         width: 432
         height: 428
+=======
+        x: 1664
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2160
         y: 2622
         width: 432
         height: 428
+=======
+        x: 2080
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2592
         y: 2622
         width: 432
         height: 428
+=======
+        x: 2496
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3024
         y: 2622
         width: 432
         height: 428
+=======
+        x: 2912
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3456
         y: 2622
         width: 432
         height: 428
+=======
+        x: 3328
+        y: 2636
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1599,89 +1668,151 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 2194
         width: 432
         height: 428
+=======
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 2194
         width: 432
         height: 428
+=======
+        x: 416
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 864
         y: 2194
         width: 432
         height: 428
+=======
+        x: 832
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1296
         y: 2194
         width: 432
         height: 428
+=======
+        x: 1248
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1728
         y: 2194
         width: 432
         height: 428
+=======
+        x: 1664
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2160
         y: 2194
         width: 432
         height: 428
+=======
+        x: 2080
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_15
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2592
         y: 2194
         width: 432
         height: 428
+=======
+        x: 2496
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_16
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3024
         y: 2194
         width: 432
         height: 428
+=======
+        x: 2912
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_17
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3456
         y: 2194
         width: 432
         height: 428
+=======
+        x: 3328
+        y: 2222
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1689,89 +1820,151 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1766
         width: 432
         height: 428
+=======
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_19
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 1766
         width: 432
         height: 428
+=======
+        x: 416
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_20
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 864
         y: 1766
         width: 432
         height: 428
+=======
+        x: 832
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_21
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1296
         y: 1766
         width: 432
         height: 428
+=======
+        x: 1248
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_22
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1728
         y: 1766
         width: 432
         height: 428
+=======
+        x: 1664
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_23
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2160
         y: 1766
         width: 432
         height: 428
+=======
+        x: 2080
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_24
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2592
         y: 1766
         width: 432
         height: 428
+=======
+        x: 2496
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_25
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3024
         y: 1766
         width: 432
         height: 428
+=======
+        x: 2912
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_26
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3456
         y: 1766
         width: 432
         height: 428
+=======
+        x: 3328
+        y: 1808
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1779,89 +1972,151 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1338
         width: 432
         height: 428
+=======
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_28
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 1338
         width: 432
         height: 428
+=======
+        x: 416
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_29
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 864
         y: 1338
         width: 432
         height: 428
+=======
+        x: 832
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_30
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1296
         y: 1338
         width: 432
         height: 428
+=======
+        x: 1248
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_31
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1728
         y: 1338
         width: 432
         height: 428
+=======
+        x: 1664
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_32
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2160
         y: 1338
         width: 432
         height: 428
+=======
+        x: 2080
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_33
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2592
         y: 1338
         width: 432
         height: 428
+=======
+        x: 2496
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_34
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3024
         y: 1338
         width: 432
         height: 428
+=======
+        x: 2912
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_35
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3456
         y: 1338
         width: 432
         height: 428
+=======
+        x: 3328
+        y: 1394
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,89 +2124,151 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 910
         width: 432
         height: 428
+=======
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_37
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 910
         width: 432
         height: 428
+=======
+        x: 416
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_38
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 864
         y: 910
         width: 432
         height: 428
+=======
+        x: 832
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_39
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1296
         y: 910
         width: 432
         height: 428
+=======
+        x: 1248
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_40
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1728
         y: 910
         width: 432
         height: 428
+=======
+        x: 1664
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_41
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2160
         y: 910
         width: 432
         height: 428
+=======
+        x: 2080
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_42
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2592
         y: 910
         width: 432
         height: 428
+=======
+        x: 2496
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_43
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3024
         y: 910
         width: 432
         height: 428
+=======
+        x: 2912
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_44
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3456
         y: 910
         width: 432
         height: 428
+=======
+        x: 3328
+        y: 980
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1959,89 +2276,151 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 482
         width: 432
         height: 428
+=======
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_46
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 482
         width: 432
         height: 428
+=======
+        x: 416
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_47
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 864
         y: 482
         width: 432
         height: 428
+=======
+        x: 832
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_48
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1296
         y: 482
         width: 432
         height: 428
+=======
+        x: 1248
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_49
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1728
         y: 482
         width: 432
         height: 428
+=======
+        x: 1664
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_50
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2160
         y: 482
         width: 432
         height: 428
+=======
+        x: 2080
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_51
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2592
         y: 482
         width: 432
         height: 428
+=======
+        x: 2496
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_52
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3024
         y: 482
         width: 432
         height: 428
+=======
+        x: 2912
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_53
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 3456
         y: 482
         width: 432
         height: 428
+=======
+        x: 3328
+        y: 566
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2049,19 +2428,32 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 54
         width: 432
         height: 428
+=======
+        y: 152
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Unit 3 aanval final 1_55
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 432
         y: 54
         width: 432
         height: 428
+=======
+        x: 416
+        y: 152
+        width: 416
+        height: 414
+>>>>>>> refs/remotes/origin/Daniel
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
