@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 0e45ccfd2e5c72b47b8a864743c873fa
+timeCreated: 1448586129
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy side_0
+    21300002: Enemy side_1
+    21300004: Enemy side_2
+    21300006: Enemy side_3
+    21300008: Enemy side_4
+    21300010: Enemy side_5
+    21300012: Enemy side_6
+    21300014: Enemy side_7
+    21300016: Enemy side_8
+    21300018: Enemy side_9
+    21300020: Enemy side_10
+    21300022: Enemy side_11
+    21300024: Enemy side_12
+    21300026: Enemy side_13
+    21300028: Enemy side_14
+    21300030: Enemy side_15
+    21300032: Enemy side_16
+    21300034: Enemy side_17
+    21300036: Enemy side_18
+    21300038: Enemy side_19
+    21300040: Enemy side_20
+    21300042: Enemy side_21
+    21300044: Enemy side_22
+    21300046: Enemy side_23
+    21300048: Enemy side_24
+    21300050: Enemy side_25
+    21300052: Enemy side_26
+    21300054: Enemy side_27
+    21300056: Enemy side_28
+    21300058: Enemy side_29
+    21300060: Enemy side_30
+    21300062: Enemy side_31
+    21300064: Enemy side_32
+    21300066: Enemy side_33
+    21300068: Enemy side_34
+    21300070: Enemy side_35
+    21300072: Enemy side_36
+    21300074: Enemy side_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemy side_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 768
+        width: 72
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 768
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 768
+        width: 72
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 769
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 768
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 769
+        width: 73
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 644
+        width: 74
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 644
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 643
+        width: 74
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 644
+        width: 68
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 643
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 643
+        width: 69
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 519
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 519
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 519
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 519
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 520
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_17
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 520
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 396
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 395
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 395
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 395
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 395
+        width: 71
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 395
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 270
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 270
+        width: 71
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 271
+        width: 74
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 271
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 271
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_29
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 272
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 147
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_31
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 147
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 146
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 146
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_34
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 146
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 146
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 22
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy side_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 21
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
