@@ -35,10 +35,7 @@ public class WaitForCheck : MonoBehaviour {
 
     public void UpgradeRange(float increment) {
         rangeIndicator.localScale = new Vector3(rangeIndicator.localScale.x + increment, rangeIndicator.localScale.y  + increment, rangeIndicator.localScale.z);
-<<<<<<< HEAD
-=======
         print(rangeIndicator.GetComponent<SpriteRenderer>().bounds.size.x / 2);
->>>>>>> refs/remotes/origin/Daniel
         range += increment * 2;
     }
 }
