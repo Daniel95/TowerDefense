@@ -1,0 +1,694 @@
+fileFormatVersion: 2
+guid: 473cdd0bdaa666a44989adcd696d61b7
+timeCreated: 1448493997
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Unit 2 - Watchtower F Idle_0
+    21300002: Unit 2 - Watchtower F Idle_1
+    21300004: Unit 2 - Watchtower F Idle_2
+    21300006: Unit 2 - Watchtower F Idle_3
+    21300008: Unit 2 - Watchtower F Idle_4
+    21300010: Unit 2 - Watchtower F Idle_5
+    21300012: Unit 2 - Watchtower F Idle_6
+    21300014: Unit 2 - Watchtower F Idle_7
+    21300016: Unit 2 - Watchtower F Idle_8
+    21300018: Unit 2 - Watchtower F Idle_9
+    21300020: Unit 2 - Watchtower F Idle_10
+    21300022: Unit 2 - Watchtower F Idle_11
+    21300024: Unit 2 - Watchtower F Idle_12
+    21300026: Unit 2 - Watchtower F Idle_13
+    21300028: Unit 2 - Watchtower F Idle_14
+    21300030: Unit 2 - Watchtower F Idle_15
+    21300032: Unit 2 - Watchtower F Idle_16
+    21300034: Unit 2 - Watchtower F Idle_17
+    21300036: Unit 2 - Watchtower F Idle_18
+    21300038: Unit 2 - Watchtower F Idle_19
+    21300040: Unit 2 - Watchtower F Idle_20
+    21300042: Unit 2 - Watchtower F Idle_21
+    21300044: Unit 2 - Watchtower F Idle_22
+    21300046: Unit 2 - Watchtower F Idle_23
+    21300048: Unit 2 - Watchtower F Idle_24
+    21300050: Unit 2 - Watchtower F Idle_25
+    21300052: Unit 2 - Watchtower F Idle_26
+    21300054: Unit 2 - Watchtower F Idle_27
+    21300056: Unit 2 - Watchtower F Idle_28
+    21300058: Unit 2 - Watchtower F Idle_29
+    21300060: Unit 2 - Watchtower F Idle_30
+    21300062: Unit 2 - Watchtower F Idle_31
+    21300064: Unit 2 - Watchtower F Idle_32
+    21300066: Unit 2 - Watchtower F Idle_33
+    21300068: Unit 2 - Watchtower F Idle_34
+    21300070: Unit 2 - Watchtower F Idle_35
+    21300072: Unit 2 - Watchtower F Idle_36
+    21300074: Unit 2 - Watchtower F Idle_37
+    21300076: Unit 2 - Watchtower F Idle_38
+    21300078: Unit 2 - Watchtower F Idle_39
+    21300080: Unit 2 - Watchtower F Idle_40
+    21300082: Unit 2 - Watchtower F Idle_41
+    21300084: Unit 2 - Watchtower F Idle_42
+    21300086: Unit 2 - Watchtower F Idle_43
+    21300088: Unit 2 - Watchtower F Idle_44
+    21300090: Unit 2 - Watchtower F Idle_45
+    21300092: Unit 2 - Watchtower F Idle_46
+    21300094: Unit 2 - Watchtower F Idle_47
+    21300096: Unit 2 - Watchtower F Idle_48
+    21300098: Unit 2 - Watchtower F Idle_49
+    21300100: Unit 2 - Watchtower F Idle_50
+    21300102: Unit 2 - Watchtower F Idle_51
+    21300104: Unit 2 - Watchtower F Idle_52
+    21300106: Unit 2 - Watchtower F Idle_53
+    21300108: Unit 2 - Watchtower F Idle_54
+    21300110: Unit 2 - Watchtower F Idle_55
+    21300112: Unit 2 - Watchtower F Idle_56
+    21300114: Unit 2 - Watchtower F Idle_57
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Unit 2 - Watchtower F Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_6
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_7
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1411
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_14
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_15
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1214
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_18
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_22
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_23
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1017
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_26
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_27
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_28
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_29
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_30
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_31
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 820
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_33
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_34
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_35
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_37
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_38
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_39
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 623
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_41
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_42
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_43
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_44
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_45
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_46
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_47
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 426
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_49
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_50
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_51
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_52
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_53
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_54
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_55
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 229
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unit 2 - Watchtower F Idle_57
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 32
+        width: 121
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
