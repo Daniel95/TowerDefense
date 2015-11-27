@@ -42,18 +42,4 @@ public class SmokeEffect : MonoBehaviour {
 
         StartCoroutine(Smoke());
     }
-    /*
-    public float SetMaxRadius {
-        set { maxEffectRadius = value; }    
-    }
-
-    public float SetDamage
-    {
-        set { effectDamage = value; }
-    }
-
-    public float SetSpeedDivide
-    {
-        set { enemyDivideSpeed = value; }
-    }*/
 }

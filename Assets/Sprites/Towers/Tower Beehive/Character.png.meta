@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 29f9dcdfc6cffa745828dd2f84db3d91
+timeCreated: 1448655400
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: unit 3 new_0
+    21300002: unit 3 new_1
+    21300004: unit 3 new_2
+    21300006: unit 3 new_3
+    21300008: unit 3 new_4
+    21300010: unit 3 new_5
+    21300012: unit 3 new_6
+    21300014: unit 3 new_7
+    21300016: unit 3 new_8
+    21300018: unit 3 new_9
+    21300020: unit 3 new_10
+    21300022: unit 3 new_11
+    21300024: unit 3 new_12
+    21300026: unit 3 new_13
+    21300028: unit 3 new_14
+    21300030: unit 3 new_15
+    21300032: unit 3 new_16
+    21300034: unit 3 new_17
+    21300036: unit 3 new_18
+    21300038: unit 3 new_19
+    21300040: unit 3 new_20
+    21300042: unit 3 new_21
+    21300044: unit 3 new_22
+    21300046: unit 3 new_23
+    21300048: unit 3 new_24
+    21300050: unit 3 new_25
+    21300052: unit 3 new_26
+    21300054: unit 3 new_27
+    21300056: unit 3 new_28
+    21300058: unit 3 new_29
+    21300060: unit 3 new_30
+    21300062: unit 3 new_31
+    21300064: unit 3 new_32
+    21300066: unit 3 new_33
+    21300068: unit 3 new_34
+    21300070: unit 3 new_35
+    21300072: unit 3 new_36
+    21300074: unit 3 new_37
+    21300076: unit 3 new_38
+    21300078: unit 3 new_39
+    21300080: unit 3 new_40
+    21300082: unit 3 new_41
+    21300084: unit 3 new_42
+    21300086: unit 3 new_43
+    21300088: unit 3 new_44
+    21300090: unit 3 new_45
+    21300092: unit 3 new_46
+    21300094: unit 3 new_47
+    21300096: unit 3 new_48
+    21300098: unit 3 new_49
+    21300100: unit 3 new_50
+    21300102: unit 3 new_51
+    21300104: unit 3 new_52
+    21300106: unit 3 new_53
+    21300108: unit 3 new_54
+    21300110: unit 3 new_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: unit 3 new_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_5
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_7
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 746
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_12
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_13
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_15
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 622
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_17
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_20
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_21
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_22
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_23
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 498
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_27
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_28
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_29
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_30
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_31
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 374
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_33
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_36
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_37
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_38
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_39
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 250
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_41
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_44
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_45
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_46
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_47
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 126
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_50
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_51
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_52
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_53
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_54
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: unit 3 new_55
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 2
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

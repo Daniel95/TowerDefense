@@ -6,6 +6,11 @@ using System.Collections.Generic;
 public class SpawnWave : MonoBehaviour {
 
     [SerializeField]
+    private Sprite[] buttonSprites;
+
+    private Image button;
+
+    [SerializeField]
     private GameObject[] spawnPoints;
 
     [SerializeField]
@@ -34,8 +39,11 @@ public class SpawnWave : MonoBehaviour {
 
     private int waveCount;
 
+    private bool waveState;
+
     void Awake() {
         waves = GameObject.Find("Wave Text").GetComponent<Text>();
+        button = GetComponent<Image>();
         foreach (CollectResources building in GameObject.FindObjectsOfType<CollectResources>())
         {
             ResourceBuildings.Add(building);
@@ -43,12 +51,15 @@ public class SpawnWave : MonoBehaviour {
     }
 
     public void StartNewWave() {
-        waveCount++;
-        waves.text = waveCount.ToString();
-        wavePoints = wavePointsStartValue;
-        StartCoroutine(SpawnEnemies(wavePoints));
-        wavePointsStartValue += wavePointsIncrement;
-        SetResourceCollection(true);
+        if (!waveState)
+        {
+            waveCount++;
+            waves.text = waveCount.ToString();
+            wavePoints = wavePointsStartValue;
+            StartCoroutine(SpawnEnemies(wavePoints));
+            wavePointsStartValue += wavePointsIncrement;
+            UpdateWaveState(true);
+        }
     }
 
     IEnumerator SpawnEnemies(float _points)
@@ -100,10 +111,9 @@ public class SpawnWave : MonoBehaviour {
                                 enemy.GetComponent<FollowWayPoints>().ChoosePath(s);
 
                                 if (_points <= 0) {
-                                    enemy.GetComponent<Dies>().LastEnemy = true;
-                                    print("lastEnemy");
+                                    enemy.GetComponent<Die>().LastEnemy = true;
+                                    print("Last Enemy");
                                 }
-                                //print("winner = " + e + " pointsleft = " + _points);
                                 counter = Random.Range(spawnTimeMin, spawnTimeMax);
                             }
                         }
@@ -115,10 +125,12 @@ public class SpawnWave : MonoBehaviour {
         }
     }
 
-    public void SetResourceCollection(bool _waveGoing) {
+    public void UpdateWaveState(bool _state) {
+        waveState = _state;
+        button.sprite = buttonSprites[System.Convert.ToInt32(_state)];
         foreach (CollectResources building in ResourceBuildings)
         {
-            building.WaveGoing = _waveGoing;
+            building.WaveGoing = _state;
         }
     }
 }

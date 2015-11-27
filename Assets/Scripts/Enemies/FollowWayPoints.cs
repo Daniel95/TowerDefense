@@ -14,6 +14,9 @@ public class FollowWayPoints : MonoBehaviour
     private int currentWaypointNumber = 0;
 
     [SerializeField]
+    private bool randomSpeed;
+
+    [SerializeField]
     private float maxMoveSpeed;
 
     private float moveSpeed = 1;
@@ -35,6 +38,7 @@ public class FollowWayPoints : MonoBehaviour
         data = GameObject.Find("PathData").GetComponent<WayPointsData>();
         PathToFollow = new List<List<GameObject>>();
 
+        if (randomSpeed) maxMoveSpeed = Random.Range(0.7f, maxMoveSpeed);
         moveSpeed = maxMoveSpeed;
 
         if (_pathNumber == 0)
@@ -114,7 +118,8 @@ public class FollowWayPoints : MonoBehaviour
     {
         if (pathChosen)
         {
-            if (moveSpeed < maxMoveSpeed) moveSpeed *= 1.05f;
+            if (moveSpeed < maxMoveSpeed) moveSpeed *= 1.02f;
+            else moveSpeed *= 0.995f;
 
             if (transform.position == currentPath[currentWaypointNumber].transform.position)
             {
@@ -148,14 +153,7 @@ public class FollowWayPoints : MonoBehaviour
     {
         rotation = (Mathf.Atan2(transform.position.y - currentPath[currentWaypointNumber].transform.position.y, currentPath[currentWaypointNumber].transform.position.x - transform.position.x) * 180 / Mathf.PI) + 180;
 
-        //print(rotation);
-
         rotation = Mathf.RoundToInt(rotation / 90);
-
-        //rotation = (int)rotation / 90;
-
-        //print(rotation);
-        //print(currentPath[currentWaypointNumber].transform.position);
 
         if (rotation == 0) rotation = 4;
 
@@ -181,6 +179,10 @@ public class FollowWayPoints : MonoBehaviour
         get { return rotation; }
     }
 
+    public bool GetRandomSpeed {
+        get { return randomSpeed; }
+    }
+    
     public float SetMoveSpeedMultiply
     {
         set { moveSpeed *= value; }

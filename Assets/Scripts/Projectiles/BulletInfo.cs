@@ -16,23 +16,13 @@ public class BulletInfo : MonoBehaviour {
     void Update()
     {
        transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), targetPos, speed * Time.deltaTime);
-        /*
-        if (transform.position == targetPos)
-        {
-            print("dead1");
-            Destroy(this.gameObject);
-        }*/
     }
 
     void OnTriggerEnter2D(Collider2D target) {
         if (target.tag == "Enemy") {
             Health enemyHealth = target.GetComponent<Health>();
             enemyHealth.TakeDamage(damage);
-            if (killSelf)
-            {
-                print("dead2");
-                Destroy(this.gameObject);
-            }
+            if (killSelf) Destroy(this.gameObject);
         }
     }
 

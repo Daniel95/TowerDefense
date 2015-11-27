@@ -20,33 +20,33 @@ public class SlideMenu : MonoBehaviour {
 
     private BuyTower buyTower;
 
+    private GameSpeed gameSpeed;
+
     //slidestate is false if selectionMenu is not visible
-    private bool visible;
+    private bool visible = false;
 
     private bool getX;
 
     void Awake()
     {
+        gameSpeed = GameObject.Find("Game Speed").GetComponent<GameSpeed>();
         selectionMenuImage = selectionMenu.GetComponent<Image>();
         distanceToMove = selectionMenuImage.rectTransform.rect.width / 6;
-
-        //startPosX = 680;//selectionMenu.transform.position.x;
-
-        StartCoroutine(FadeOut());
 
         Color color = selectionMenuImage.color;
         color.a = 0;
         selectionMenuImage.color = color;
 
+        StartCoroutine(FadeIn());
+
         foreach (Transform child1 in selectionMenu.transform)
         {
             child1.GetComponent<Image>().color = color;
-            child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = false;
             foreach (Transform child2 in child1)
             {
                 if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
                 {
-                    child2.gameObject.SetActive(false);
+                    child2.gameObject.SetActive(true);
                 }
             }
         }
@@ -57,49 +57,34 @@ public class SlideMenu : MonoBehaviour {
         if (!getX) visiblePosX = selectionMenu.transform.position.x;// - selectionMenuImage.rectTransform.rect.width / 4;
         getX = true;
 
-
+        visible = !visible;
+        
         //Set Visible
         if (!visible) {
-            visible = true;
-            Vector3 PositionToGo = new Vector3(visiblePosX, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
-            StartCoroutine(SlideTo(PositionToGo, true));
-            StartCoroutine(FadeIn());
-
-            foreach (Transform child1 in selectionMenu.transform)
+            if (gameSpeed.GetGameSpeed != 0)
             {
-                child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = true;
-                foreach (Transform child2 in child1)
-                {
-                    if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
-                    {
-                        child2.gameObject.SetActive(true);
-                    }
-                }
+                Vector3 PositionToGo = new Vector3(visiblePosX, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
+                StartCoroutine(SlideTo(PositionToGo, true));
+                StartCoroutine(FadeIn());
+            }
+            else {
+                InstantVisible(true);
             }
         }//Set Invisible
         else {
-            visible = false;
-
-            Vector3 PositionToGo = new Vector3(visiblePosX + distanceToMove, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
-            StartCoroutine(SlideTo(PositionToGo, false));
-            StartCoroutine(FadeOut());
-
-            foreach (Transform child1 in selectionMenu.transform)
-            {
-                child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = false;
-                foreach (Transform child2 in child1)
-                {
-                    if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
-                    {
-                        child2.gameObject.SetActive(false);
-                    }
-                }
+            if(gameSpeed.GetGameSpeed != 0) {
+                Vector3 PositionToGo = new Vector3(visiblePosX + distanceToMove, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
+                StartCoroutine(SlideTo(PositionToGo, false));
+                StartCoroutine(FadeOut());
+            }
+            else {
+                InstantVisible(false);
             }
         }
     }
 
     IEnumerator SlideTo(Vector3 _positionToGo, bool _visible) {
-        while(selectionMenu.transform.position != _positionToGo && visible == _visible) {
+        while(selectionMenu.transform.position != _positionToGo && visible != _visible) {
             selectionMenu.transform.position = Vector3.MoveTowards(selectionMenu.transform.position, _positionToGo, slideSpeed);
             yield return new WaitForFixedUpdate();         // Leave the routine and return here in the next frame
         }
@@ -107,7 +92,20 @@ public class SlideMenu : MonoBehaviour {
 
     IEnumerator FadeOut()
     {
-        while (selectionMenuImage.color.a >= 0 && !visible)
+        foreach (Transform child1 in selectionMenu.transform)
+        {
+            child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = false;
+            foreach (Transform child2 in child1)
+            {
+                if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
+                {
+                    child2.gameObject.SetActive(false);
+                }
+            }
+        }
+
+
+        while (selectionMenuImage.color.a >= 0 && visible)
         {
             Color color = selectionMenuImage.color;
             color.a -= changeAlphaSpeed;
@@ -124,7 +122,19 @@ public class SlideMenu : MonoBehaviour {
 
     IEnumerator FadeIn()
     {
-        while (selectionMenuImage.color.a <= 1 && visible)
+        foreach (Transform child1 in selectionMenu.transform)
+        {
+            child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = true;
+            foreach (Transform child2 in child1)
+            {
+                if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
+                {
+                    child2.gameObject.SetActive(true);
+                }
+            }
+        }
+
+        while (selectionMenuImage.color.a <= 1 && !visible)
         {
             Color color = selectionMenuImage.color;
             color.a += changeAlphaSpeed;
@@ -139,32 +149,28 @@ public class SlideMenu : MonoBehaviour {
         }
     }
 
-    public void InstantVisible(bool _visible) {
-        if (getX)
+    private void InstantVisible(bool _visible) {
+
+        int IntVisible = System.Convert.ToInt32(_visible);
+
+        Color color = selectionMenuImage.color;
+        color.a = IntVisible;
+        selectionMenuImage.color = color;
+
+        foreach (Transform child1 in selectionMenu.transform)
         {
-            int IntVisible = System.Convert.ToInt32(_visible);
-
-            Color color = selectionMenuImage.color;
-            color.a = IntVisible;
-            selectionMenuImage.color = color;
-
-            foreach (Transform child1 in selectionMenu.transform)
+            child1.GetComponent<Image>().color = color;
+            child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = _visible;
+            foreach (Transform child2 in child1)
             {
-                child1.GetComponent<Image>().color = color;
-                child1.gameObject.GetComponent<BuyTowerSlide>().SetClickable = _visible;
-                foreach (Transform child2 in child1)
+                if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
                 {
-                    if (child2.gameObject.name == "Price" || child2.gameObject.name == "ResourceLogo")
-                    {
-                        child2.gameObject.SetActive(_visible);
-                    }
+                    child2.gameObject.SetActive(_visible);
                 }
             }
-
-            if (_visible) selectionMenu.transform.position = new Vector3(visiblePosX, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
-            else selectionMenu.transform.position = new Vector3(visiblePosX + distanceToMove, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
-
-            visible = !visible;
         }
+
+        if (_visible) selectionMenu.transform.position = new Vector3(visiblePosX, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
+        else selectionMenu.transform.position = new Vector3(visiblePosX + distanceToMove, selectionMenu.transform.position.y, selectionMenu.transform.position.z);
     }
 }

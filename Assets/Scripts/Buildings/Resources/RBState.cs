@@ -41,9 +41,9 @@ public class RBState : Health {
         InvokeRepeating("RecoverHealth", 0, healthRecoverRate);
     }
 
-    protected override void Die()
+    protected override void Dead()
     {
-        base.Die();
+        base.Dead();
         if (collectResources.CollectingResources)
         {
             collectResources.CollectingResources = false;

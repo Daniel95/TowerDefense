@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
+using System.Collections;
+
 public class LoseGame : Health {
 
-    private HealthText healthText; 
+    private HealthText healthText;
+
+    private Animator anim;
 
     protected override void Awake()
     {
+        anim = GetComponent<Animator>();
         healthText = GameObject.Find("Lives Text").GetComponent<HealthText>();
 
         base.Awake();
@@ -18,9 +23,34 @@ public class LoseGame : Health {
         healthText.SetText(health);
     }
 
-    protected override void Die()
+    IEnumerator WaitForAnimation(string animName)
     {
-        base.Die();
-        Application.LoadLevel("Menu");
+        for (int i = 0; i <= 2; i++)
+        {
+            yield return new WaitForFixedUpdate();
+        }
+        //wait for animation to finish
+        while (anim.GetCurrentAnimatorStateInfo(0).IsName(animName))
+        {
+            yield return new WaitForFixedUpdate();
+        }
+        Destroy(this.gameObject);
+    }
+
+    protected override void Dead()
+    {
+        base.Dead();
+        anim.Play("ThreeHouseDestruction");
+        StartCoroutine(WaitForAnimation());
+        GetComponent<ToggleGameobjectActive>().ToggleFromScript(true);
+    }
+
+    IEnumerator WaitForAnimation()
+    {
+        for (int i = 0; i <= 310; i++)
+        {
+            yield return new WaitForFixedUpdate();
+        }
+        Time.timeScale = 0;
     }
 }

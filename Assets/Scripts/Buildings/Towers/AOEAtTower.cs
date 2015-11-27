@@ -9,9 +9,12 @@ public class AOEAtTower : AOE
     [SerializeField]
     private float startSpeedDivider;
 
+    private Drag drag;
+
     protected override void Awake()
     {
         base.Awake();
+        drag = GetComponent<Drag>();
     }
 
     protected override void CheckForTarget()
@@ -22,8 +25,11 @@ public class AOEAtTower : AOE
     protected override void Effect(Collider2D target)
     {
         base.Effect(target);
-        target.GetComponent<Health>().TakeDamage(startDamage);
-        target.GetComponent<FollowWayPoints>().DivideSpeed(startSpeedDivider);
+        if (drag.getPlaced)
+        {
+            target.GetComponent<Health>().TakeDamage(startDamage);
+            target.GetComponent<FollowWayPoints>().DivideSpeed(startSpeedDivider);
+        }
     }
 
     public void UpgradeSpeedDivider(float _upgrade) {

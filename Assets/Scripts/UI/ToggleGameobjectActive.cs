@@ -1,22 +1,24 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class ToggleGameobjectActive : MonoBehaviour {
 
     [SerializeField]
-    private string objectName;
-
     private GameObject objectToToggle;
 
+    [SerializeField]
     private bool active;
 
     void Awake() {
-        objectToToggle = GameObject.Find(objectName);
         objectToToggle.SetActive(active);
     }
 
-    public void Toggle() {
+    public void ToggleFromButton() {
         active = !active;
         objectToToggle.SetActive(active);
+    }
+
+    public void ToggleFromScript(bool _active) {
+        active = _active;
+        objectToToggle.SetActive(_active);
     }
 }

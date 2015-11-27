@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class AOEBuff : AOE {
 
@@ -11,8 +10,6 @@ public class AOEBuff : AOE {
     [SerializeField]
     private float speedMultiply;
 
-    private float randomBuff;
-
     protected override void Awake()
     {
         base.Awake();
@@ -23,8 +20,6 @@ public class AOEBuff : AOE {
     {
         base.CheckForTarget();
 
-        randomBuff = Random.Range(0, 0.99f);
-
         int dir = (int)waypoint.GetRotation;
         if (dir == 1) anim.Play("HowlUpView");
         else if (dir == 2) anim.Play("HowlSideView");
@@ -34,7 +29,11 @@ public class AOEBuff : AOE {
     protected override void Effect(Collider2D target)
     {
         base.Effect(target);
-        if (randomBuff < 0.5f) target.GetComponent<Health>().RestoreHealth(heal);
-        else target.GetComponent<FollowWayPoints>().SetMoveSpeedMultiply = speedMultiply;
+        FollowWayPoints movement = target.GetComponent<FollowWayPoints>();
+        if (!movement.GetRandomSpeed)
+        {
+            target.GetComponent<Health>().RestoreHealth(heal);
+            movement.SetMoveSpeedMultiply = speedMultiply;
+        }
     }
 }

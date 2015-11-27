@@ -12,7 +12,6 @@ public class Snap : MonoBehaviour {
 		if (! grid)
 			return Position;
 
-		//	get position on the quad from -0.5...0.5 (regardless of scale)
 		Vector3 gridPosition = grid.transform.InverseTransformPoint( Position );
 
         // round the positions

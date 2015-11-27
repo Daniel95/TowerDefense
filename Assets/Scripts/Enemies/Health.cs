@@ -33,17 +33,25 @@ public class Health : MonoBehaviour {
         }
         else
         {
+            //when buildings died and get rebuild, they need to start with a green color.
             healthbarSprite.color = Color.green;
+            //set the scale to zero so it doesnt show the healthbar scale below zero.
             healthbar.localScale = new Vector3(0, 1, 1);
-            Die();
+            Dead();
         }
     }
 
     public void RestoreHealth(float heal) {
-        if (health < startHealth) health += heal; 
+        if (health < startHealth)
+        {
+            health += heal;
+        }
+        else healthbarSprite.color = Color.green;
+        if (health < startHealth / 3) healthbarSprite.color = Color.red;
+        else if(health < startHealth / 1.5f) healthbarSprite.color = Color.yellow;
     }
 
-    protected virtual void Die() {
+    protected virtual void Dead() {
 
     }
 }

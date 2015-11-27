@@ -56,7 +56,7 @@ public class BuyTower : MonoBehaviour {
     }
 
     public void CheckRequirements() {
-        if (clickable && totalResources.GetResources > price)
+        if (clickable && totalResources.GetResources >= price)
         {
             totalResources.DecrementResources(price);
             GetTower();
